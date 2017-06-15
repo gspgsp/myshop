@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="style/credit.css"/>
+<!--back begin-->
+<div class="back"><a href="javascript:;"></a>授信说明</div>
+<!--back end-->
+<!--credit2 begin-->
+<div class="credit2 w96">
+	<h3>授信说明</h3>
+    <p>本授信是[我的塑料网]针对网站的优质客户，提供的供应链金融业务授信，客户可以在授信额度范围内使用[我的塑料网]提供的供应链金融产品，满足企业的融资需求。</p>
+    <h3>特点:</h3>
+    <p>1.以便捷、高效的整体合作模式，使客户迅速得到全面和规范的供应链金融服务；</p>
+    <p>2.节省客户的用款成本，简化工作手续，提高融资效率；</p>
+    <p>3.基于真实订单需求，在整体信用额度的前提下，随借随用，即时到账；</p>
+    <p>4.低利息、低费用。</p>
+    <h3>适用客户:</h3>
+    <p>企业信用良好、与[我的塑料网]订单成交三笔以上以及其他必要条件。</p>
+    <h3>注：授信解释权归[我的塑料网]所有。</h3>
+</div>
+<!--credit2 end-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/other.js"></script>
+<script>
+$( function () {
+	var right = $( ".right" ),
+		credit1 = $( ".back a" );
+		
+	//跳转到查自己	
+	credit1.bind( "click", function () {
+		right.load( "credit1.html" );
+	} );
+} );
+</script>

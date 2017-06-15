@@ -1,0 +1,25 @@
+/*address-list begin*/
+.address-list{ width:310px; height:auto; overflow:auto;}
+.address-list .fixed{ width:310px; height:308px; overflow:hidden; background:#fff; position:fixed; left:70px; top:0; z-index:9999;} 
+.address-list h2{ font-size:16px; height:51px; line-height:51px; text-align:center; color:#fff; background:#ff5000; position:relative;}
+.address-list h2 span{ margin:0 5px 0 0;}
+.address-list .search{ width:290px; height:auto; overflow:hidden; margin:10px;}
+.address-list .search .search-top{ width:290px; height:30px; margin:0 0 10px 0;}
+.address-list .search .search-top select{ width:140px; height:30px; border:1px solid #bfbfbf; float:left;}
+.address-list .search .search-top select.select1{ margin:0 10px 0 0;}
+.address-list .search .search-bot{ width:290px; height:30px; overflow:hidden; background:#fff;}
+.address-list .search .search-bot input{ font-family:"微软雅黑"; color:#6d6d6d; width:220px; height:14px; padding:7px 0 7px 9px; border:1px solid #bfbfbf; border-right:none; overflow:hidden; float:left;}
+.address-list .list.settop{ margin:10px 0 0 0; border-top:1px solid #ccc;}
+.address-list .list{ color:#666; width:100%; height:auto; overflow:hidden; background:#fff;}
+.address-list .list li{ width:300px; height:67px; padding:11px 0; margin:0 0 0 13px; overflow:hidden; border-bottom:1px solid #ccc; position:relative; cursor:pointer;}
+.address-list .list li a{ color:#6d6d6d; display:block;}
+.address-list .list li .pic{ margin:9px 10px 0 0;}
+.address-list .list li .info{ font-size:12px; width:242px; height:auto; overflow:hidden;}
+.address-list .list li .info p{ height:14px; line-height:14px; overflow:hidden; margin:0 0 10px 0;}
+.address-list .list li .info p span{ display:inline-block; height:14px; float:left;}
+.address-list .list li .info .company{ color:#333; width:140px; height:14px; line-height:14px; overflow:hidden; background:url(../img/icons.png) no-repeat 0 -184px; padding:0 0 0 18px;}
+.address-list .list li .info .name{ background:url(../img/icons.png) no-repeat 0 -198px; padding:0 0 0 16px;}
+.address-list .list li .info .supply,.address-list .list li .info .demand{ margin:0 8px 0 0;}
+.address-list .list li .info .product,.address-list .list li .info .amount{ color:#63769d; margin:0 8px 0 0;}
+.address-list .list li .set-top{ font-size:12px; color:#fe5a50; text-align:center; width:52px; height:18px; line-height:18px; overflow:hidden; background:#fff; border:1px solid #fe5a50; border-radius:2px; position:absolute; right:20px; top:32px;}
+/*address-list end*/

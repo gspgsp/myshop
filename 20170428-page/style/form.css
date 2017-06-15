@@ -1,0 +1,62 @@
+/*login begin*/
+.form-wrap{ font-size:18px; width:324px; height:auto; overflow:hidden; margin:0 auto; padding:90px 0 0 0;}
+.form-wrap .error-msg{ margin:0 0 10px 0; padding:0;}
+.form-wrap .error-msg .inner{ padding:0 0 0 18px;}
+.form-wrap a{ color:#fe6e27; font-size:14px;}
+.form-tr{ height:46px; line-height:46px; overflow:hidden; margin:0 0 10px 0;}
+.form-tr .name{ height:46px; float:left; color:#fff; background:#888; text-align:center;}
+.form-tr .name-text{ width:100px;}
+.form-tr .name span{ margin:0 7px;}
+.form-tr .val{ width:223px; height:44px; overflow:hidden; float:left; background:#fff; border-top:1px solid #d6d7dc; border-bottom:1px solid #d6d7dc; border-right:1px solid #d6d7dc;}
+.form-tr .val-text{ width:223px;}
+.form-tr .val-icon{ width:277px;}
+.form-tr.code .val-icon{ width:148px;}
+.form-tr .get-code{ width:120px; height:46px; float:right; text-align:center;}
+.form-tr .get-code.enable{ background:#fff; color:#fe6e27; cursor:pointer;}
+.form-tr .get-code.disabled{ background:#ccc; color:#fff;}
+.form-tr .val input{ font-size:18px; width:260px; height:18px; padding:14px 0 14px 18px;}
+.form-tr.check{ font-size:14px;}
+.form-tr.check input{ float:left; margin:16px 5px 0 0;}
+.form-tr.check label{ float:left;}
+.form-tr button{ font-size:20px; font-family:"微软雅黑"; width:322px; height:44px; border:1px solid #fe6e27; background:none; cursor:pointer;}
+.form-tr button.btn1{ background:#fe6e27; color:#fff;}
+.form-wrap.login .go-reg{ color:#888; font-size:12px; margin:0 0 10px 0;}
+/*login end*/
+
+/*reg begin*/
+.reg{ width:520px; height:auto; overflow:hidden; margin:0 auto; padding:90px 0 0 0;}
+.reg h3{ font-size:14px; font-weight:bold; width:434px; height:30px; line-height:30px; border-bottom:1px solid #d9d9d9; background:#f9f9f9 url(../img/spirit.png) no-repeat 0 -244px; margin:20px 0 20px 0; padding:0 0 0 46px;}
+.reg .tr{ width:875px; height:30px; line-height:30px; overflow:hidden; margin:0 0 20px 0;}
+.reg .tr div{ float:left;}
+.reg .tr .name{ font-weight:bold; text-align:right; width:98px; margin:0 20px 0 0;}
+.reg .tr .name span{ color:#e64748;}
+.reg .tr .val{ width:210px; height:28px; overflow:hidden; border:1px solid #d6d7dc;}
+.reg .tr .val input{ width:200px; height:14px; padding:7px 0 7px 10px; box-shadow:1px 3px 4px #e9e9e9 inset;}
+.reg .tr .val.code{ width:110px; margin:0 6px 0 0;}
+.reg .tr .num-code{ width:94px; height:30px; overflow:hidden; margin:0 14px 0 0;}
+.reg .tr .get-code{ text-align:center; font-size:12px; width:94px; height:30px; line-height:30px;}
+.reg .tr .get-code.enable{ color:#fff; background:#4dafea; cursor:pointer;}
+.reg .tr .get-code.disabled{ color:#888; background:#ddd;}
+.reg .tr .radio{ height:14px; line-height:14px; overflow:hidden; margin:8px 0 0 0;}
+.reg .tr .radio input{ margin:0 5px 0 0;}
+.reg .tr .radio label{ margin:0 8px 0 0;}
+.reg .reg-agreement{ width:520px; height:28px; line-height:28px; margin:0 0 36px 20px;}
+.reg .reg-agreement label{ cursor:pointer;}
+.reg .reg-agreement a{ color:#fe6e27;}
+.reg .submit{ color:#fff; font-size:16px; width:324px; height:46px; background:#ff5000; margin:0 0 0 118px; cursor:pointer;}
+/*reg end*/
+
+/*agreement begin*/
+.agreement{ width:90%; height:auto; line-height:25px; overflow:hidden; margin:0 auto; padding:90px 0 0 0;}
+.agreement h3{ font-weight:bold; margin:0 0 20px 0;}
+.agreement p{ margin:0 0 10px 0; text-indent:30px;}
+/*agreement end*/
+
+/*find-pwd begin*/
+.find-pwd .name-icon{ width:46px; background-image:url(../img/spirit.png); background-repeat:no-repeat;}
+.find-pwd .mobile .name-icon{ background-position:0 -302px;}
+.find-pwd .pwd .name-icon{ background-position:-46px -302px;}
+.find-pwd .code .name-icon{ background-position:0 -348px;}
+.find-pwd .get-code{ width:118px; height:44px; float:right; text-align:center; border:1px solid #d6d7dc;}
+/*find-pwd end*/
+

@@ -1,0 +1,210 @@
+html,body,div,h1,h2,h3,h4,h5,h6,hr,ul,ol,li,dl,dt,dd,a,b,em,i,p,strong,img,table,tr,td,form,input,select,button,textarea{ margin:0; padding:0; border:0; outline:medium;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+input,select,textarea{ color:#6d6d6d; font-size:14px; font-family:"微软雅黑"; outline:none;}
+html,body{ font-family:"微软雅黑"; font-size:14px; background:#f2f2f2; color:#6d6d6d; overflow:hidden;}
+
+a{ text-decoration:none;}
+.flt{ float:left;}
+.frt{ float:right;}
+.icon-alert{ background:url(../img/spirit.png) no-repeat 0 -274px;}
+.icon-search{ color:#fff; display:block; width:60px; height:30px; line-height:30px; text-align:center; overflow:hidden; background:#ff5000; float:right; cursor:pointer;}
+.error-msg{ color:#f60; font-size:12px; height:28px; line-height:28px; padding:0 0 0 18px; margin:0 0 0 5px;}
+.w96{ width:96%; height:auto; overflow:hidden; margin:0 auto; margin-bottom:10px;}
+
+::-webkit-scrollbar{ width:5px; height:5px; background-color:#F5F5F5;}    
+::-webkit-scrollbar-track{ -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); border-radius:10px; background-color:#F5F5F5;}/*定义滚动条轨道*/
+::-webkit-scrollbar-thumb{ border-radius:10px; -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3); background-color:#bbb;}/*定义滑块*/ 
+
+.pic{ width:44px; height:44px; position:relative;}
+.pic img{ width:44px; height:44px; overflow:hidden; display:block; border:1px solid #ff5000; border-radius:4px;}
+.pic .authen{ font-family:Arial; font-weight:bold; font-size:9px; color:#fff; width:14px; height:14px; line-height:14px; text-align:center; border-radius:50%; border:1px solid #f4f3f4; position:absolute; right:-4px; bottom:-4px;}
+.pic .authen.no{ background:#808080;}
+.pic .authen.yes{ background:#ffb600;}
+
+.center{ width:310px; overflow:auto;}
+
+.banner{ width:309px; height:66px; overflow:hidden;}
+
+/*concern begin*/
+.concern{ width:309px; height:64px; line-height:64px; overflow:hidden; background:#fff; border-top:1px solid #d6d7dc; border-bottom:1px solid #d6d7dc;}
+.concern a{ color:#6d6d6d;}
+.concern p,.concern span{ float:left;}
+.concern .thumb{ width:44px; height:44px; overflow:hidden; border:1px solid #ff5000; border-radius:3px; margin:9px 10px 0 10px;}
+.concern .thumb1{ background:url(../img/concern1.png) no-repeat center;}
+.concern .thumb2{ background:url(../img/concern2.png) no-repeat center;}
+/*concern end*/
+
+/*back begin*/
+.right{ overflow:auto;}
+.back,.form-back{ font-size:20px; color:#333; width:100%; height:50px; line-height:50px; text-align:center; overflow:hidden; border-bottom:1px solid #d9d9d9; background:#f2f2f2; position:fixed; left:380px; top:0; z-index:9999;}
+.form-back{ left:70px;}
+.back a,.form-back a{ display:inline-block; width:12px; height:20px; background:url(../img/icons.png) no-repeat -18px -234px; float:left; margin:16px 0 0 20px;}
+.back.buy-sell-back{ color:#fff; background:#ff5000; left:70px;}
+.back.buy-sell-back a{ background:url(../img/spirit.png) no-repeat -46px -348px;}
+/*back end*/
+
+
+
+
+
+
+
+
+
+.triangle{ position:relative;}
+.triangle .point{ position:absolute;}
+.triangle .point1{ left:32px; top:-12px; width:20px; height:13px; background:url(../img/icons.png) no-repeat 0 -262px;}
+.triangle .point2{ width:18px; height:13px; background:url(../img/icons.png) no-repeat -122px -262px; top:-12px; left:108px}
+
+/*summary begin*/
+.summary{ padding:0 0 6px 0; margin-top:40px; margin-bottom:16px; position:relative;}
+.summary .info-person p{ margin:6px 0 0 0;}
+.summary .info-person .name{ color:#000; font-size:20px;}
+.summary .info-person .name span{ margin:0 0 0 18px;}
+.summary .info-person b{ color:#63769d; font-weight:normal;}
+.summary .pic{ width:88px; height:84px; margin:0 15px 0 0;}
+.summary .pic img{ width:82px; height:82px;}
+.summary .pic .authen{ font-size:18px; width:26px; height:26px; line-height:26px; right:-6px; bottom:-6px;}
+.summary .opt{ font-size:16px; height:31px; overflow:hidden; position:absolute; right:0; top:0; width:81px; height:33px; line-height:31px; text-align:center; border-radius:4px; margin:0 10px 0 0; float:left; cursor:pointer;}
+.summary .opt a{ color:#fff; display:block;}
+.summary .opt.yes a{ background:#ffb600; box-shadow:0 2px 3px #c28b00;}
+.summary .opt.no a{ background:#aaa; box-shadow:0 2px 3px #777;}
+/*summary end*/
+
+/*company-info begin*/
+.company-info{ height:auto; overflow:hidden; border:1px solid #d9d9d9; border-radius:2px; background:#fff; margin-bottom:12px;}
+.company-info ul{ width:60%; height:auto; min-height:86px; line-height:28px; overflow:hidden; padding:12px 0 12px 2%; border-right:1px solid #d9d9d9;}
+.company-info .card{ width:36%; height:auto; overflow:hidden;}
+.company-info .card img{ width:139px; height:86px; display:block; margin:3% auto;}
+/*company-info end*/
+
+/*buy-sell begin*/
+.buy-sell{ border:1px solid #d9d9d9; background:#fff;}
+.buy-sell .title{ height:32px; line-height:32px; border-bottom:1px solid #d9d9d9;}
+.buy-sell .title h3{ height:14px; line-height:14px; border-left:2px solid; margin:9px; padding:0 0 0 4px; float:left;}
+.buy-sell .title a{ font-size:12px; float:right; margin:0 9px 0 0;}
+.buy-sell li{ height:48px; padding:5px 0 0 0; overflow:hidden; border-bottom:1px solid #d9d9d9;}
+.buy-sell li:last-child{ border-bottom:none;}
+.buy-sell li span{ font-size:12px; color:#999; margin:0 0 0 19px;}
+.buy-sell li p{ height:14px; line-height:14px; background:url(../img/icons.png) no-repeat; padding:0 0 0 22px; margin:7px 0 0 19px;}
+.buy-sell li b{ font-weight:normal;}
+.buy .title{ background:#edcda6;}
+.buy .title h3{ border-left-color:#ff5000;}
+.buy .title a{ color:#ff5000;}
+.buy li p{ background-position:-30px -234px;}
+.buy li b{ color:#ec8000;}
+.sell .title{ background:#b8d2e3;}
+.sell .title h3{ border-left-color:#267bd3;}
+.sell .title a{ color:#267bd3;}
+.sell li p{ background-position:-30px -248px;}
+.sell li b{ color:#62759e;}
+/*buy-sell end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*my-summary begin*/
+.my-title{ color:#fff; font-size:16px; text-align:center; width:310px; height:51px; line-height:51px; background:#ff5000;}
+.my-summary{ width:310px; height:139px; overflow:hidden; background:url(../img/myinfoBg.jpg) no-repeat; margin:0 0 10px 0;}
+.my-summary-top{ height:61px; overflow:hidden; margin:19px 0 0 10px;}
+.my-summary-top .pic{ width:63px; height:63px; margin:0 10px 0 0;}
+.my-summary-top .pic img{ width:57px; height:57px;}
+.my-summary-top .pic .authen{ font-size:12px; width:19px; height:19px; line-height:19px; right:0; bottom:0;}
+.my-summary-top .person-info{ line-height:20px;}
+.my-summary-top .person-info .opt{ font-size:12px;}
+.my-summary-top .person-info .opt span{ display:inline-block;}
+.my-summary-top .person-info .opt b{ font-weight:normal; font-family:"黑体"; display:inline-block; height:12px; line-height:12px;}
+.my-summary-top .person-info .opt .change{ cursor:pointer;}
+.my-summary-top .person-info .opt .change b{ width:12px; height:12px; background:url(../img/icons.png) no-repeat -39px -336px; margin:0 0 0 4px;}
+.my-summary-bot{ font-size:12px; color:#fff; width:310px; height:44px; overflow:hidden; background:rgba(145,144,145,.5); margin:15px 0 0 0;}
+.my-summary-bot ul{ height:30px; overflow:hidden; margin:7px 0 0 0;}
+.my-summary-bot ul li{ width:43px; height:30px; text-align:center; border-right:1px solid #cbcaca; float:left;}
+/*my-summary end*/
+
+/*my-info begin*/
+.my-info li{ line-height:43px; margin-bottom:10px;}
+.my-info li .item{ height:43px; background:#fff; margin-bottom:1px; overflow:hidden; cursor:pointer;} 
+.my-info li .item .icon{ width:30px; height:30px; overflow:hidden; background:url(../img/icons.png) no-repeat; margin:7px 10px 0 10px; float:left;}
+.my-info li .item .icon1{ background-position:0 -276px;}
+.my-info li .item .icon2{ background-position:-30px -276px;}
+.my-info li .item .icon3{ background-position:-60px -276px;}
+.my-info li .item .icon4{ background-position:-90px -276px;}
+.my-info li .item .icon5{ background-position:0 -306px;}
+.my-info li .item .icon6{ background-position:-30px -306px;}
+.my-info li .item .icon7{ background-position:-60px -306px;}
+.my-info li .item .icon8{ background-position:-90px -306px;}
+.my-info li .item .icon9{ background-position:0 -336px;}
+.my-info li .item p{ width:64px; font-size:16px; float:left;}
+.my-info li .item .text{ width:170px; float:left; text-align:right;}
+.my-info li .item .arrow{ width:9px; height:16px; overflow:hidden; background:url(../img/icons.png) no-repeat -30px -336px; margin:15px 10px 0 0; float:right;}
+.my-info li .item.hover{ color:#ff5000; background:#e2e2e2;}
+.my-info li .item.hover .arrow{ background-position:-30px -352px;}
+.my-info li.quit{ font-size:16px; color:#ff5000; text-align:center;}
+/*my-info begin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*change begin*/
+.border-wrap{ border:1px solid #d9d9d9; border-radius:4px; background:#fff;}
+.change-person{ font-size:16px; height:97px; overflow:hidden; margin-top:19px; position:relative;}
+.change-person button{ color:#fff; font-size:16px; width:81px; height:31px; background:#ff5000; box-shadow:0 2px 0 #cb4000; border-radius:3px; position:absolute; right:0; top:10px; cursor:pointer;}
+.change-person .pic{ width:77px; height:77px; margin:0 30px 0 0;}
+.change-person .pic img{ width:77px; height:77px;}
+.change-person .pic .change-pic{ width:32px; height:32px; background:url(../img/icons.png) no-repeat 0 -386px; position:absolute; right:-11px; bottom:-11px; cursor:pointer;}
+.change-person p{ height:12px; line-height:12px; margin:0 0 8px 0; padding:0 0 0 18px;}
+.change-person p.name{ font-size:20px; color:#333; height:20px; line-height:20px; background:url(../img/icons.png) no-repeat 0 -366px; padding:0 0 0 24px;}
+.change-person p.company{ background:url(../img/icons.png) no-repeat 0 -184px;}
+.change-person p.mobile{ background:url(../img/icons.png) no-repeat 0 -210px;}
+.change-person p span{ margin:0 10px 0 0;}
+.change-person p b{ color:#63769d; font-weight:normal;}
+
+.edit{ height:auto; overflow:hidden;}
+.edit li{ height:43px; line-height:43px; overflow:hidden; border-bottom:1px solid #d9d9d9; text-indent:9px; position:relative;}
+.edit li.last{ border-bottom:none;}
+.edit li span{ position:absolute; right:0; top:0;}
+
+.edit li span  b{ width:40px; height:15px; padding:9px; display:inline-block; border-radius:50px; background:#fff; box-shadow:inset 0 0 20px rgba(0,0,0,.2); cursor:pointer; position:relative; margin:5px 5px 0 0;}
+.edit li span  b i{ position:absolute; left:2px; top:2px; width:29px; height:29px; background:#FFF; box-shadow:0 0 2px rgba(0,0,0,.5),inset 0 -18px 15px -10px rgba(0,0,0,.05); border-radius:100px; z-index:999; }
+.edit li span  b.yes{ background:#4bd763;}
+.edit li span  b.yes i{ left:27px;}
+
+.edit.routine-set li .modify .import{ width:280px; padding:5px 0 5px 10px; border:1px solid #d9d9d9; border-radius:3px;}
+.edit.routine-set li .modify .radio{ margin:0 4px 0 0;}
+.edit.routine-set li .modify label{ margin:0 8px 0 0;}
+.edit.routine-set li p.hide{ display:none;}
+
+.upload-card{ height:130px;}
+.upload-card .card{ width:239px; height:130px; border-right:1px solid #d9d9d9;}
+.upload-card .card img{ margin:22px 0 0 50px; cursor:pointer;}
+.upload-card .remark p{ line-height:22px; width:200px; margin:15px 0 0 20px;}
+/*change end*/

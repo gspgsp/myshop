@@ -1,0 +1,48 @@
+<!--back begin-->
+<div class="back"><a href="javascript:;"></a>查看TA的供给</div>
+<!--back end-->
+<!--summary begin-->
+<div class="summary w96" style="padding:30px 0 0 0;">
+    <div class="pic flt">
+    	<img src="img/pic1.jpg"/>
+    	<div class="authen yes">V</div>
+    </div>
+    <div class="info-person flt">
+    	<p class="name">张飞扬<span>女</span></p>
+        <p>上海中晨电子商务股份有限公司</p>
+        <p>联系电话：13972885670</p>
+    </div>
+</div>
+<!--summary end-->
+<!--sell-more begin-->
+<div class="buy-sell sell triangle w96" style="overflow:visible;">
+	<div class="point point1"></div>
+    <ul>
+    	<li>
+        	<span>11-07 16：23</span>
+            <p><b>供给</b>：价格9200.00元左右/62107/伊朗/青岛</p>
+        </li>
+        <li>
+        	<span>11-07 16：23</span>
+            <p><b>供给</b>：价格9200.00元左右/62107/伊朗/青岛</p>
+        </li>
+        <li>
+        	<span>11-07 16：23</span>
+            <p><b>供给</b>：价格9200.00元左右/62107/伊朗/青岛</p>
+        </li>
+    </ul>
+</div>
+<!--sell-more end-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/other.js"></script>
+<script>
+$( function () {
+	var right = $( ".right" ),
+		backInfo = $( ".back a" );
+		
+	//跳转到info	
+	backInfo.bind( "click", function () {
+		right.load( "info.html" );
+	} );	
+} );
+</script>

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<link rel="stylesheet" type="text/css" href="style/index.css"/>
+</head>
+
+<body>
+	<!--left begin-->
+    <div class="left flt">
+    	<!--pic begin-->
+        <div class="pic">
+            <img src="img/female.jpg"/>
+            <div class="authen no">V</div>
+        </div>
+        <!--pic end-->
+        <ul>
+            <li id="left1" class="hover"><a href="javascript:;"><span class="menu1"></span>通讯录</a></li>
+            <li id="left2"><a href="javascript:;"><span class="menu2"></span>供求</a></li>
+            <li id="left3"><a href="javascript:;"><span class="menu3"></span>发现</a></li>
+            <li id="left4"><a href="javascript:;"><span class="menu4"></span>我的</a></li>
+            <li id="left5"><a href="javascript:;">登录</a></li>
+        </ul>
+    </div>
+    <!--left end-->
+    <div class="center flt"></div>
+    <div class="right flt"></div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+$( function () {
+	var left = $( ".left" ),
+		left2 = $( "#left2" ),
+		center = $( ".center" ),
+		right = $( ".right" ),
+		html = $( "html" ),
+		index = 0,
+		h = $( document ).height();
+	
+	//设置各个部分的高度
+	left.height( h );
+	center.height( h );
+	right.height( h );
+	html.height( h );
+
+	//设置右侧的宽度
+	setW( left, center, right );
+	
+	$( window ).resize( function () {
+		setW( left, center, right );
+	} );
+	
+	center.load( "center.html" );
+	right.load( "right.html" );
+	
+	//点击左侧菜单
+	left.find( "li" ).bind( "click", function () {
+		var _this = $(this);
+		_this.addClass( "hover" ).siblings().removeClass( "hover" );
+		index = _this.index();
+		
+		//index === 0,点击通讯录
+		//index === 1,点击供求
+		//index === 2,点击发现
+		//index === 3,点击我的
+		
+		gid( center, index );
+		setW( left, center, right, index );
+		if( index === 0 ){
+			center.load( "center.html" );
+			right.load( "right.html" );
+		} else if ( index === 1 ) {
+			right.load( "buy-sell.html" );
+		} else if ( index === 2 ) {
+			center.load( "center2.html" );
+			right.load( "right.html" );
+		} else if ( index === 3 ) {
+			center.load( "center3.html" );
+			right.load( "right.html" );
+		}
+
+	} );
+	
+	//登录
+	$( "#left5" ).bind( "click", function () {
+		getLogin();
+	} );
+	
+	//设置布局
+	var gid = function ( elem, index ) {
+		if ( index === 1 ) {
+			elem.hide();
+		} else {
+			elem.show();
+		}
+	}
+	
+	//跳转到登录
+	function getLogin () {
+		gid( center, 1 );
+		setW( left, center, right, 1 );
+		right.load( "login.html" );
+	}
+	
+	//设置右侧的宽度
+	function setW ( gid1, gid2, elem, index ) {
+		index = index || 0;
+		var w = ( index === 1 ) ? $( document ).width() - gid1.width() : $( document ).width() - gid1.width() - gid2.width();
+		elem.width( w );
+	};
+} );
+</script>
+</html>

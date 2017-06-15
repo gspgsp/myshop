@@ -1,0 +1,12 @@
+/*default begin*/
+.default{ width:440px; height:auto; overflow:hidden; margin:0 auto; margin-top:76px;}
+.default .default-top{ width:440px; height:170px; overflow:hidden; margin:0 0 64px 0;}
+.default .default-bot{ width:440px; height:188px; overflow:hidden;}
+.default .default-bot .opt{ width:220px; height:auto; overflow:hidden; margin:22px 0 0 0;}
+.default .default-bot .opt p{ width:220px; height:60px; line-height:60px; overflow:hidden; margin:0 0 20px 0;}
+.default .default-bot .opt p a{ font-size:20px; text-indent:63px; display:block; width:216px; height:56px; border:2px solid; border-radius:50px; background:url(../img/spirit.png) no-repeat;}
+.default .default-bot .opt p.opt1 a{ color:#666; border-color:#666; background-position:28px -132px;}
+.default .default-bot .opt p.opt2 a{ color:#fc6621; border-color:#fc6621; background-position:26px -188px;}
+.default .default-bot .ewm{ font-size:18px; text-align:center; width:160px; height:188px; overflow:hidden;}
+.default .default-bot .ewm img{ display:block; margin:0 0 7px 0;}
+/*default end*/

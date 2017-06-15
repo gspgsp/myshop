@@ -1,0 +1,56 @@
+<link rel="stylesheet" type="text/css" href="style/center2.css"/>
+<!--discovery begin-->
+<div class="discovery">
+	<h2>塑料发现</h2>
+    <ul class="discovery1">
+    	<li class="title last"><a href="javascript:;">塑料头条</a></li>
+    </ul>
+    <ul class="discovery2">
+    	<li class="title">企业信用额度</li>
+        <li class="link1"><a href="javascript:;">查自己</a></li>
+        <li class="link2"><a href="javascript:;">查别人</a></li>
+        <li><a href="https://www.sobot.com/chat/pc/index.html?sysNum=137f8799efcb49fea05534057318dde0" target="_blank">要授信</a></li>
+        <li class="last">
+        	<a href="https://www.sobot.com/chat/pc/index.html?sysNum=137f8799efcb49fea05534057318dde0" target="_blank">提额度</a>
+        </li>
+    </ul>
+    <ul class="discovery3">
+    	<li class="title">塑料配资</li>
+        <li><a href="https://www.sobot.com/chat/pc/index.html?sysNum=137f8799efcb49fea05534057318dde0" target="_blank">产品定义</a></li>
+        <li><a href="https://www.sobot.com/chat/pc/index.html?sysNum=137f8799efcb49fea05534057318dde0" target="_blank">费率</a></li>
+        <li class="last">
+        	<a href="https://www.sobot.com/chat/pc/index.html?sysNum=137f8799efcb49fea05534057318dde0" target="_blank">我要申请</a>
+        </li>
+    </ul>
+</div>
+<!--discovery end-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+$( function () {
+	var right = $( ".right" ),
+		discovery1 = $( ".discovery1" ),
+		link1 = $( ".link1" ),
+		link2 = $( ".link2" );
+		
+	//跳转到塑料头条	
+	discovery1.bind( "click", function () {
+		right.load( "headline.html" );
+	} );	
+	
+	//跳转到查自己
+	link1.bind( "click", function () {
+		right.load( "credit1.html" );
+	} );
+	
+	//跳转到查别人
+	link2.bind( "click", function () {
+		right.load( "credit3.html" );
+	} );
+	
+	$( ".discovery li a" ).bind( "click", function () {
+		$(".discovery li").removeClass( "hover" );
+		$( this ).parent().addClass( "hover" );
+	} );
+	
+} );
+</script>

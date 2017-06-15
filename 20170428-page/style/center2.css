@@ -1,0 +1,14 @@
+/*discovery begin*/
+.discovery{ width:100%; height:auto; overflow:hidden;}
+.discovery h2{ color:#fff; font-size:16px; text-align:center; width:100%; height:51px; line-height:51px; overflow:hidden; background:#ff5000;}
+.discovery ul{ color:#333; width:100%; height:auto; overflow:hidden; margin:0 0 10px 0; border-bottom:1px solid #d6d7dc; border-top:1px solid #d6d7dc; background:#fff;}
+.discovery li{ text-indent:42px; width:96%; height:50px; line-height:50px; border-bottom:1px solid #d6d7dc; margin:0 0 0 4%;}
+.discovery li.title{ width:100%; margin:0; background:url(../img/spirit.png) no-repeat;}
+.discovery .discovery1 li.title{ background-position:10px -426px;}
+.discovery .discovery2 li.title{ background-position:10px -526px;}
+.discovery .discovery3 li.title{ background-position:10px -576px;}
+.discovery li.last{ border-bottom:none;}
+.discovery li a{ color:#333; display:block;}
+.discovery li:hover a,.discovery li.hover a{ color:#ff5000;}
+.discovery .discovery1 li.title:hover,.discovery .discovery1 li.title.hover{ background-position:10px -476px;}
+/*discovery end*/

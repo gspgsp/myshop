@@ -1,0 +1,185 @@
+<link rel="stylesheet" type="text/css" href="style/my.css"/>
+<!--back begin-->
+<div class="back">塑豆商城</div>
+<!--back end-->
+<div class="blank"></div>
+<!--mall-ad begin-->
+<div class="mall-ad">
+	<img src="img/my2.jpg" width="520" height="162"/>
+</div>
+<!--mall-ad end-->
+<!--mall-link begin-->
+<div class="mall-link">
+	<ul>
+    	<li class="mall-link1"><a href="javascript:;"><span>226</span>塑豆</a></li>
+        <li class="mall-link2"><a href="javascript:;">如何赚塑豆</a></li>
+        <li class="mall-link3 last"><a href="javascript:;">充值塑豆</a></li>
+    </ul>
+</div>
+<!--mall-link end-->
+<div class="mall-info-title">商品信息</div>
+<!--mall-info begin-->
+<div class="mall-info">
+    <!--ware begin-->
+    <div class="ware">
+    	<img src="img/my3.jpg" width="150" height="150"/>
+        <!--explain begin-->
+        <div class="explain flt">
+        	<p class="name">通讯录一天置顶卡</p>
+            <p class="need">所需塑豆：<span>100塑豆</span></p>
+        </div>
+        <!--explain end-->
+        <div class="other flt">X 2</div>
+    </div>
+    <!--ware end-->
+    <!--amount begin-->
+    <div class="amount">
+    	<!--name begin-->
+    	<div class="name flt"><span>*</span>请选择兑换数量</div>
+        <!--name end-->
+        <!--change begin-->
+        <div class="change frt">
+        	<p class="reduce">-</p>
+            <p class="num">1</p>
+            <p class="add">+</p>
+        </div>
+        <!--change end-->
+    </div>
+    <!--amount end-->
+    <!--opt begin-->
+    <div class="opt">
+    	<!--total begin-->
+        <div class="total flt">共<span>2</span>件</div>
+        <!--total end-->
+        <!--use begin-->
+        <div class="use flt">总塑豆：200</div>
+        <!--use end-->
+        <button>提交兑换</button>
+    </div>
+    <!--opt end-->
+</div>
+<!--mall-info end-->
+<!--mall-info begin-->
+<div class="mall-info">
+    <!--ware begin-->
+    <div class="ware">
+    	<img src="img/my3.jpg" width="150" height="150"/>
+        <!--explain begin-->
+        <div class="explain flt">
+        	<p class="name">通讯录一天置顶卡</p>
+            <p class="need">所需塑豆：<span>100塑豆</span></p>
+        </div>
+        <!--explain end-->
+        <div class="other flt">X 2</div>
+    </div>
+    <!--ware end-->
+    <!--amount begin-->
+    <div class="amount">
+    	<!--name begin-->
+    	<div class="name flt"><span>*</span>请选择兑换数量</div>
+        <!--name end-->
+        <!--change begin-->
+        <div class="change frt">
+        	<p class="reduce">-</p>
+            <p class="num">1</p>
+            <p class="add">+</p>
+        </div>
+        <!--change end-->
+    </div>
+    <!--amount end-->
+    <!--tip begin-->
+    <div class="tip"><span>*</span>请选择要置顶的供求信息（限选一条）：</div>
+    <!--tip end-->
+    <!--set-top begin-->
+    <div class="set-top">
+    	<ul>
+        	<li>
+            	<!--sel begin-->
+                <div class="sel yes flt"></div>
+                <!--sel end-->
+                <!--info begin-->
+                <div class="info flt">
+                	<p class="time">11-07 16：23</p>
+                    <p class="buy"><span>求购：</span>价格9200.00元左右/62107/伊朗/青岛</p>
+                </div>
+                <!--info end-->
+            </li>
+            <li>
+            	<!--sel begin-->
+                <div class="sel flt"></div>
+                <!--sel end-->
+                <!--info begin-->
+                <div class="info flt">
+                	<p class="time">11-07 16：23</p>
+                    <p class="sell"><span>供给：</span>价格9200.00元左右/62107/伊朗/青岛</p>
+                </div>
+                <!--info end-->
+            </li>
+            <li>
+            	<!--sel begin-->
+                <div class="sel flt"></div>
+                <!--sel end-->
+                <!--info begin-->
+                <div class="info flt">
+                	<p class="time">11-07 16：23</p>
+                    <p class="buy"><span>求购：</span>价格9200.00元左右/62107/伊朗/青岛</p>
+                </div>
+                <!--info end-->
+            </li>
+            <li class="last">
+            	<!--sel begin-->
+                <div class="sel flt"></div>
+                <!--sel end-->
+                <!--info begin-->
+                <div class="info flt">
+                	<p class="time">11-07 16：23</p>
+                    <p class="sell"><span>供给：</span>价格9200.00元左右/62107/伊朗/青岛</p>
+                </div>
+                <!--info end-->
+            </li>
+        </ul>
+    </div>
+    <!--set-top end-->
+    <!--opt begin-->
+    <div class="opt">
+    	<!--total begin-->
+        <div class="total flt">共<span>2</span>件</div>
+        <!--total end-->
+        <!--use begin-->
+        <div class="use flt">总塑豆：200</div>
+        <!--use end-->
+        <button>提交兑换</button>
+    </div>
+    <!--opt end-->
+</div>
+<!--mall-info end-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/other.js"></script>
+<script>
+$( function () {
+	var right = $( ".right" ),
+		link2 = $( ".mall-link2" ),
+		link3 = $( ".mall-link3" ),
+		reduce = $( ".change .reduce" ),
+		add = $( ".change .add" );
+	link2.bind( "click", function () {
+		right.load( "my8-1.html" );
+	} );
+	link3.bind( "click", function () {
+		right.load( "my8-2.html" );
+	} );
+	
+	//设置兑换数量
+	add.bind( "click", function () {
+		var num = $( this ).prev( ".num" );
+		num.html(parseInt(num.html()) + 1);
+	} );
+	
+	reduce.bind( "click", function () {
+		var num = $( this ).next( ".num" );
+		if ( parseInt(num.html()) > 0 ) { 
+			num.html(parseInt(num.html()) - 1);
+		}
+	} );
+} );
+</script>

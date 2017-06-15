@@ -1,0 +1,95 @@
+<link rel="stylesheet" type="text/css" href="style/form.css"/>
+<!--back begin-->
+<div class="form-back"><a href="javascript:;"></a>注册</div>
+<!--back end-->
+<!--reg begin-->
+<div class="reg">
+	<form name="" method="post" action="" id="reg-form">
+	    <h3>账号信息</h3>
+        <!--tr begin-->
+        <div class="tr">
+            <div class="name">手机号码：<span>*</span></div>
+            <div class="val">
+                <input type="text" placeholder="手机号码" name="mobilenumber" value=""/>
+            </div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+ 		<!--tr begin-->
+        <div class="tr">
+            <div class="name">设置密码：<span>*</span></div>
+            <div class="val">
+                <input type="password" placeholder="请输入密码" id="set-pwd1" name="setpwd" value=""/>
+            </div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+       	<!--tr begin-->
+        <div class="tr">
+            <div class="name">手机校验码：<span>*</span></div>
+            <div class="val code"><input type="text" placeholder="请输入验证码" name="jyCode" value=""/></div>
+            <div class="get-code enable" data-bool="true">获取校验码</div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+        <h3>更多信息</h3>
+        <!--tr begin-->
+        <div class="tr">
+            <div class="name">姓名：<span>*</span></div>
+            <div class="val"><input type="text" placeholder="请输入您的姓名" name="userName" value=""/></div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+        <!--tr begin-->
+        <div class="tr">
+            <div class="name">公司名称：<span>*</span></div>
+            <div class="val"><input type="text" placeholder="请输入您的公司全称" value="" name="companyName"/></div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+        <!--tr begin-->
+        <div class="tr">
+            <div class="name">企业类型：<span>*</span></div>
+            <div class="radio">
+                <input type="radio" id="radio1" name="enterprise"/><label for="radio1">塑料制品厂</label>
+                <input type="radio" id="radio2" name="enterprise"/><label for="radio2">原料供应商</label>
+                <input type="radio" id="radio3" name="enterprise"/><label for="radio3">物流服务商</label>
+            </div>
+            <div class="error-msg"></div>
+        </div>
+        <!--tr end-->
+        <!--reg-agreement begin-->
+        <div class="tr reg-agreement">
+            <div class="check">
+                <input type="checkbox" name="protocol" id="check1" checked="checked"/>
+                <label for="check1">阅读并接受</label>
+                <a href="javascript:;">《我的塑料网用户服务协议》</a>
+            </div>
+            <div class="error-msg"></div>
+        </div>
+        <!--reg-agreement end-->
+        <input type="submit" class="submit" value="提交注册信息"/>
+    </form>
+</div>
+<!--reg end-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/other.js"></script>
+<script>
+$( function () {
+	var right = $( ".right" ),
+		login = $( ".form-back a" ),
+		agreement = $( ".reg-agreement a" );
+		
+	//跳转到登录	
+	login.bind( "click", function () {
+		right.load( "login.html" );
+	} );
+	
+	//跳转到服务协议
+	agreement.bind( "click", function () {
+		right.load( "agreement.html" );
+	} );
+} );
+</script>
