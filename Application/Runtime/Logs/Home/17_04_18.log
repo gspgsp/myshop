@@ -1,0 +1,102 @@
+[ 2017-04-18T09:12:27+08:00 ] 127.0.0.1 /Home/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+
+[ 2017-04-18T09:12:39+08:00 ] 127.0.0.1 /Home/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-04-18T09:12:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-18T09:13:54+08:00 ] 127.0.0.1 /Home/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.1640s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.1780s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.1250s ]
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\myShop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+NOTIC: [8] Undefined index: WIDout_trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: WIDsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+NOTIC: [8] Undefined index: WIDtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 42 行.
+NOTIC: [8] Undefined index: WIDbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 43 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+

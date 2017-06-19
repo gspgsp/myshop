@@ -1,0 +1,92 @@
+<?php
+/**
+* 项目语言包
+* @author gsp <[<email address>]>
+*/
+return array(
+	//商品上架
+	'goods_on_sale1'=>array(
+		0=>'下架1',
+		1=>'上架1',
+		),
+	//商品删除
+	'goods_on_delete1'=>array(
+		0=>'未删除1',
+		1=>'已删除1',
+		),
+	//产品分类
+	'product_type'=>array(
+		1=>'HDPE',
+		2=>'LDPE',
+		3=>'LLDPE',
+		4=>'均聚PP',
+		5=>'PVC',
+		6=>'共聚PP',
+		7=>'ABS',
+		8=>'PC',
+		9=>'MABS',
+		10=>'HIPS',
+		11=>'GPPS',
+		12=>'EVA',
+		13=>'EAA',
+		14=>'AS',
+		15=>'EPDM',
+	),
+	//加工级别
+	'process_level'=>array(
+		1=>'重包',
+		2=>'涂覆',
+		3=>'薄膜',
+		4=>'滚塑',
+		5=>'注塑',
+		6=>'中空',
+		7=>'管材',
+		8=>'拉丝',
+		9=>'纤维',
+		10=>'茂金属',
+		11=>'其他',
+	),
+	'cargo_type'=>array(
+		1=>'现货',
+		2=>'期货',
+	),
+	'bargain'=>array(
+		1=>'可议价',
+		2=>'实价',
+	),
+	'pay_method'=>array(
+		1=>'银行电汇',
+		2=>'现金',
+		3=>'支票',
+		4=>'转账',
+		5=>'托收',
+		6=>'东方付通',
+		),
+	'transport_type'=>array(
+		1=>'乙方自提',
+		2=>'甲方送货',
+		3=>'甲方代托运',
+		),
+	//短信配置项
+	'msg_template'=>array(
+		//注册成功
+		'register'=>"您已注册成功，欢迎来到我的塑料网！",
+		//有报价信息
+		'offers'=>"您的%s：%s（牌号：%s，价格：%s）被 %s 用户采购，<a href='/user/myoffers/msgToList?id=%s&type=%s'>查看详情</a>",
+		//下自营订单
+		'order'=>"您已选购：牌号：%s 价格：%s ，生成自营订单，交易员审核后，将会生成正式订单，<a href='/user/selforder/detail/id/%s'>查看详情</a>",
+		//联营订单
+		'union_order'=>"您的供货：%s，%s 已经被选中并生成联营订单，交易员审核后，将会生成正式订单，<a href='/user/unionorder/detail/id/%s'>查看详情</a>",
+		),
+	//短信模板
+	'sms_template'=>array(
+		'dynamic_code'=>'验证码：%s，切勿泄漏给他人，有效期30分钟，如非本人操作，请忽略本短信。',
+		'passwd_edit_success'=>'尊敬的用户，您的新登录密码为%s，请及时登录系统并重新修改,感谢您对我的塑料网的支持。',
+	),
+	//交货方式
+	'ship_type'=>array(
+		1=>'自提',
+		2=>'送货上门',
+		3=>'其他',
+	),
+);

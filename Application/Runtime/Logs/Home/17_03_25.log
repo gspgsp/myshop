@@ -1,0 +1,1162 @@
+[ 2017-03-25T15:19:00+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-25T15:19:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-25T15:23:36+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-25T15:24:17+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-25T15:24:18+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-25T15:24:19+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-25T15:33:46+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-25T16:56:06+08:00 ] 127.0.0.1 /home/Elas/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T16:57:17+08:00 ] 127.0.0.1 /home/Elas/get_document
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T16:58:11+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 17 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:00:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:06:54+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:07:24+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:25+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:19:45+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:12+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:42+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:20:42+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:21:17+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:21:18+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:21:18+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:23:06+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:30+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:31+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:32+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:32+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:32+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:42+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:25:42+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:11+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:12+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:12+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:21+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:22+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:22+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:23+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:23+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:23+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:28:23+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 1 passed to Elasticsearch\Client::__construct() must be an instance of Elasticsearch\Transport, array given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 2 passed to Elasticsearch\Client::__construct() must be callable, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [4096] Argument 3 passed to Elasticsearch\Client::__construct() must be of the type array, none given, called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 18 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 91 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 94 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 95 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 96 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 97 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 98 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 99 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 100 行.
+NOTIC: [8] Undefined variable: endpoint D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 101 行.
+NOTIC: [8] Undefined variable: registeredNamespaces D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 102 行.
+
+[ 2017-03-25T17:32:20+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:33:03+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:33:05+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:33:05+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:33:05+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:33:05+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Elasticsearch\Client::create() should not be called statically, assuming $this from incompatible context D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Elasticsearch\Client::create(), called in D:\xampp\htdocs\myShop\Application\Home\Controller\ElasController.class.php on line 19 and defined D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 661 行.
+NOTIC: [8] Undefined variable: params D:\xampp\htdocs\myShop\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php 第 663 行.
+ERR: Think\Controller:extractArgument方法不存在！
+
+[ 2017-03-25T17:34:53+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: No alive nodes found in your cluster
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\myShop\Application\Common\Common\function.php:28) D:\xampp\htdocs\myShop\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\myShop\Application\Common\Common\function.php:28) D:\xampp\htdocs\myShop\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-03-25T17:35:10+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:38:21+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:44:06+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:48:12+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:50:13+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:50:26+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:52:35+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:54:36+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:54:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-25T17:54:50+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:59:41+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T17:59:57+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T18:01:39+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-25T18:56:12+08:00 ] 127.0.0.1 /home/Elas/create_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: No alive nodes found in your cluster
+
+[ 2017-03-25T21:49:31+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-25T22:06:48+08:00 ] 127.0.0.1 /home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

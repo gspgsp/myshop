@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div {
+			width: 500px;
+			height: 200px;
+			border: 1px solid green;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>观察者模式切换</h1>
+	<select name="" id="" onchange="t();">
+		<option value="male">男士风格</option>
+		<option value="female">女式风格</option>
+	</select>
+	<input type="button" value="添加监听" onclick="t1();" />
+	<input type="button" value="取消监听" onclick="t2();" />
+	<div id="content">内容</div>
+	<div id="ad">广告</div>
+	<div id="study">问</div>
+	<script>
+		var sel = document.getElementsByTagName('select')[0],
+		content = document.getElementById('content'),
+		ad = document.getElementById('ad'),
+		study = document.getElementById('study');
+
+		sel.observers = {};
+		sel.attach = function(key,obj){
+			this.observers[key] = obj;
+		}
+		sel.detach = function(key){
+			delete this.observers[key];
+		}
+		sel.onchange = sel.notify = function (){
+			for(var key in this.observers){
+				this.observers[key].update(this);
+			}
+		}
+		//观察者操作
+		content.update = function(observee){
+			if(observee.value 	== 'male'){
+				this.style.backgroundColor = 'green';
+			}else if(observee.value == 'female'){
+				this.style.backgroundColor = 'blue';
+			}
+		}
+		ad.update = function(observee){
+			if(observee.value 	== 'male'){
+				this.innerHTML = '男士';
+			}else if(observee.value == 'female'){
+				this.innerHTML = '女士';
+			}
+		}
+		study.update = function(observee){
+			if(observee.value 	== 'male'){
+				this.innerHTML = '电脑';
+				this.style.backgroundColor = 'gray';
+			}else if(observee.value == 'female'){
+				this.innerHTML = ' 美容';
+				this.style.backgroundColor = 'purple';
+			}
+		}
+		//监听
+		sel.attach('content',content);
+		sel.attach('ad',ad);
+		//
+		function t1(){
+			sel.attach('study',study);
+		}
+		function t2(){
+			sel.detach('study');
+		}
+	</script>
+</body>
+</html>

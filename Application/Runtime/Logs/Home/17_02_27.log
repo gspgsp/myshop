@@ -1,0 +1,867 @@
+[ 2017-02-27T14:07:55+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+ERR: 1146:Table 'my.p2p_resource_lib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_resource_lib`
+ERR: 1146:Table 'my.p2p_resource_lib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_resource_lib`
+
+[ 2017-02-27T14:07:55+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-27T14:09:58+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: thi D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 21 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id =  ) LIMIT 1  
+
+[ 2017-02-27T14:10:32+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type=1 and addtime>1488124800 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p2p_points_bill` WHERE ( uid= and type=1 and addtime>1488124800 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type=1 and addtime>1488124800 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `p2p_points_bill` WHERE ( uid= and type=1 and addtime>1488124800 ) LIMIT 1  
+
+[ 2017-02-27T14:11:18+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-02-27T14:11:41+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0850s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-27T14:12:59+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0470s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T14:14:54+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0450s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime<1488124800 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime<1488124800 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime<1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-27T14:23:21+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE ( type = 1 ) LIMIT 1   [ RunTime:0.5650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-27T14:23:46+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0480s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE ( type = 1 ) LIMIT 1   [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T14:25:00+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=>array('eq'=>1)) ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT count(*) as count FROM `p2p_resourcelib` WHERE ( array('type'=>array('eq'=>1)) ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=>array('eq'=>1)) ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT count(*) as count FROM `p2p_resourcelib` WHERE ( array('type'=>array('eq'=>1)) ) LIMIT 1  
+
+[ 2017-02-27T14:25:37+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0370s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.5740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-27T14:29:17+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0490s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.5410s ]
+ERR: 1054:Unknown column 'points' in 'field list'
+ [ SQL语句 ] : SELECT `points` FROM `p2p_setting` LIMIT 1  
+ERR: 1054:Unknown column 'points' in 'field list'
+ [ SQL语句 ] : SELECT `points` FROM `p2p_setting` LIMIT 1  
+
+[ 2017-02-27T14:36:55+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-27T15:10:49+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0450s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+ERR: 1054:Unknown column 'points' in 'field list'
+ [ SQL语句 ] : SELECT `points` FROM `p2p_setting` LIMIT 1  
+ERR: 1054:Unknown column 'points' in 'field list'
+ [ SQL语句 ] : SELECT `points` FROM `p2p_setting` LIMIT 1  
+
+[ 2017-02-27T15:32:57+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0290s ]
+ERR: 1054:Unknown column 'points' in 'where clause'
+ [ SQL语句 ] : SELECT `value` FROM `p2p_setting` WHERE ( code = points ) LIMIT 1  
+ERR: 1054:Unknown column 'points' in 'where clause'
+ [ SQL语句 ] : SELECT `value` FROM `p2p_setting` WHERE ( code = points ) LIMIT 1  
+
+[ 2017-02-27T15:33:19+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `value` FROM `p2p_setting` WHERE ( code = 'points' ) LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T15:33:23+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T18:13:59+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+NOTIC: [2] require_once(../../../Archive/class/sphinxapi.php): failed to open stream: No such file or directory D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 7 行.
+
+[ 2017-02-27T18:16:35+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../../../Archive/class/sphinxapi.php): failed to open stream: No such file or directory D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 7 行.
+
+[ 2017-02-27T18:20:50+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.081004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083005s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2017-02-27T18:23:27+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0470s ]
+
+[ 2017-02-27T18:24:00+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0390s ]
+
+[ 2017-02-27T18:24:03+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2017-02-27T18:26:29+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2017-02-27T18:26:31+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0540s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0520s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0380s ]
+
+[ 2017-02-27T18:29:44+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+
+[ 2017-02-27T18:30:24+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+
+[ 2017-02-27T18:30:26+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+
+[ 2017-02-27T18:32:17+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2017-02-27T18:33:39+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0340s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2017-02-27T18:34:42+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T18:34:44+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T18:34:57+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-27T18:35:38+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+ERR: 1146:Table 'my.resourcelib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `resourcelib`
+ERR: 1146:Table 'my.resourcelib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `resourcelib`
+
+[ 2017-02-27T18:35:49+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488124800 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

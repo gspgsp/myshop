@@ -1,0 +1,45 @@
+[ 2017-01-16T12:09:20+08:00 ] 127.0.0.1 /Home/PointsShop/init
+ERR: XML标签语法错误 : condition="$Think.session.uinfo.points gt ".{$value.points}
+
+[ 2017-01-16T12:09:47+08:00 ] 127.0.0.1 /Home/PointsShop/init
+ERR: XML标签语法错误 : condition="$Think.session.uinfo.points gt "+"$value.points"
+
+[ 2017-01-16T12:10:34+08:00 ] 127.0.0.1 /Home/PointsShop/init
+ERR: XML标签语法错误 : condition="$Think.session.uinfo.points gt "+{$value.points}
+
+[ 2017-01-16T13:42:03+08:00 ] 127.0.0.1 /Home/PointsShop/init
+ERR: XML标签语法错误 : condition="$Think.session.uinfo.points 
+
+[ 2017-01-16T15:48:51+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=1
+ERR: 非法操作:home
+
+[ 2017-01-16T15:49:12+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=1
+ERR: 非法操作:home
+
+[ 2017-01-16T15:49:15+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=0
+ERR: 非法操作:home
+
+[ 2017-01-16T15:52:54+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=1
+ERR: 非法操作:home
+
+[ 2017-01-16T15:53:27+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=0
+ERR: 非法操作:home
+
+[ 2017-01-16T15:53:38+08:00 ] 127.0.0.1 /Home/PointsShop/Home/PointsShop/getCategory?cate_id=0
+ERR: 非法操作:home
+
+[ 2017-01-16T16:13:22+08:00 ] 127.0.0.1 /home/offers/Offers/28803.html
+ERR: 非法操作:offers
+
+[ 2017-01-16T16:13:30+08:00 ] 127.0.0.1 /home/offers/Offers/28803.html
+ERR: 非法操作:offers
+
+[ 2017-01-16T16:13:31+08:00 ] 127.0.0.1 /home/offers/Offers/28803.html
+ERR: 非法操作:offers
+
+[ 2017-01-16T16:13:31+08:00 ] 127.0.0.1 /home/offers/Offers/28803.html
+ERR: 非法操作:offers
+
+[ 2017-01-16T16:14:53+08:00 ] 127.0.0.1 /Home/PointsShop/MetCategory/0.html
+ERR: 非法操作:metcategory
+

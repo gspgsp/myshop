@@ -1,0 +1,13 @@
+[ 2016-12-27T10:14:17+08:00 ] 127.0.0.1 /admin/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'sl.p2p_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_goods`
+ERR: 1146:Table 'sl.p2p_goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_goods`
+

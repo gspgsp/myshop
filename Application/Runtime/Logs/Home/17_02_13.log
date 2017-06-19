@@ -1,0 +1,857 @@
+[ 2017-02-13T14:20:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-02-13T14:20:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:20:54+08:00 ] 127.0.0.1 /home/offers/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0030s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.2710s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: cart D:\xampp\htdocs\myShop\Application\Common\MyLib\Cart.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `p2p_factory` [ RunTime:0.0040s ]
+SQL: SELECT DISTINCT  * FROM `p2p_factory` WHERE ( 1 ) LIMIT 28   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `p2p_big_offers` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) LIMIT 1   [ RunTime:0.3220s ]
+SQL: SELECT pur.id,pur.supply_count,pur.bargain,pur.user_id,pur.shelve_type,pur.is_union,pur.unit_price,pur.c_id,pur.number,pur.status,pur.cargo_type,pur.period,pur.input_time,pur.type,pro.model,pro.f_id,pro.product_type,pro.process_type,fac.f_name,pur.store_house FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) ORDER BY pur.input_time desc LIMIT 0,10   [ RunTime:0.0210s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: seotype D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seofa D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seoprocess D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 4 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 8 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 15 行.
+NOTIC: [8] Undefined index: description D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 16 行.
+NOTIC: [8] Undefined variable: auth_info D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 52 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 55 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 130 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 140 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: key_model D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 152 行.
+NOTIC: [8] Undefined variable: key_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 153 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 154 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 155 行.
+NOTIC: [8] Undefined variable: key D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 166 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 167 行.
+NOTIC: [8] Undefined variable: ct D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 168 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 169 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 289 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 323 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:20:55+08:00 ] 127.0.0.1 /Public/Uploads/16/06/21/5768d3c0629bf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:20:55+08:00 ] 127.0.0.1 /Public/Uploads/16/07/22/5791cf36a122e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:20:55+08:00 ] 127.0.0.1 /Public/Uploads/16/07/27/57985d52d7a9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:21:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:21:08+08:00 ] 127.0.0.1 /home/talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-13T14:21:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:37:51+08:00 ] 127.0.0.1 /home/offers/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_factory` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `p2p_factory` WHERE ( 1 ) LIMIT 28   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_big_offers` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT pur.id,pur.supply_count,pur.bargain,pur.user_id,pur.shelve_type,pur.is_union,pur.unit_price,pur.c_id,pur.number,pur.status,pur.cargo_type,pur.period,pur.input_time,pur.type,pro.model,pro.f_id,pro.product_type,pro.process_type,fac.f_name,pur.store_house FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) ORDER BY pur.input_time desc LIMIT 0,10   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: seotype D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seofa D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seoprocess D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 4 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 8 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 15 行.
+NOTIC: [8] Undefined index: description D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 16 行.
+NOTIC: [8] Undefined variable: auth_info D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 52 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 55 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 130 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 140 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: key_model D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 152 行.
+NOTIC: [8] Undefined variable: key_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 153 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 154 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 155 行.
+NOTIC: [8] Undefined variable: key D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 166 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 167 行.
+NOTIC: [8] Undefined variable: ct D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 168 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 169 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 289 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 323 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:37:51+08:00 ] 127.0.0.1 /Public/Uploads/16/06/21/5768d3c0629bf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:37:51+08:00 ] 127.0.0.1 /Public/Uploads/16/07/27/57985d52d7a9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:37:51+08:00 ] 127.0.0.1 /Public/Uploads/16/07/22/5791cf36a122e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:38:37+08:00 ] 127.0.0.1 /home/offers/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_factory` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT  * FROM `p2p_factory` WHERE ( 1 ) LIMIT 28   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_big_offers` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT pur.id,pur.supply_count,pur.bargain,pur.user_id,pur.shelve_type,pur.is_union,pur.unit_price,pur.c_id,pur.number,pur.status,pur.cargo_type,pur.period,pur.input_time,pur.type,pro.model,pro.f_id,pro.product_type,pro.process_type,fac.f_name,pur.store_house FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) ORDER BY pur.input_time desc LIMIT 0,10   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: seotype D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seofa D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seoprocess D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 4 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 8 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 15 行.
+NOTIC: [8] Undefined index: description D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 16 行.
+NOTIC: [8] Undefined variable: auth_info D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 52 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 55 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 130 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 140 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: key_model D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 152 行.
+NOTIC: [8] Undefined variable: key_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 153 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 154 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 155 行.
+NOTIC: [8] Undefined variable: key D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 166 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 167 行.
+NOTIC: [8] Undefined variable: ct D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 168 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 169 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 289 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 323 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:38:38+08:00 ] 127.0.0.1 /Public/Uploads/16/06/21/5768d3c0629bf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:38:38+08:00 ] 127.0.0.1 /Public/Uploads/16/07/27/57985d52d7a9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:38:38+08:00 ] 127.0.0.1 /Public/Uploads/16/07/22/5791cf36a122e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:09:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Home/PointsShop/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `p2p_points_sign` [ RunTime:0.2230s ]
+SQL: SELECT * FROM `p2p_points_sign` WHERE ( uid = 9270 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p2p_points_goods` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_points_goods` WHERE ( status=1 and is_mobile=0 and cate_id in(1,2,3) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`thumb`,`name`,`points` FROM `p2p_points_goods` WHERE ( status=1 and is_mobile=0 and cate_id in(1,2,3) ) ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 28 行.
+NOTIC: [8] Undefined variable: cate_id D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 154 行.
+NOTIC: [8] Undefined variable: cate_id D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 155 行.
+NOTIC: [8] Undefined variable: pages D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 179 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 464 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 466 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 466 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 493 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\eb062d811bfe4d1ca8b69596f8f3f7d9.php 第 494 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577dba8c10f0a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577db81fd80b2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577dba6da2447.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577dba11502ae.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577dba598992a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads//Public/Attachment/Images/2016/03/11/56e26a46a25da.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T15:27:35+08:00 ] 127.0.0.1 /Public/Uploads/16/07/07/577dbaa066ac6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,73 @@
+<!--footer begin-->
+<div class="footer">
+    <div class="w1220">
+        <div class="left link3 flt">
+            <ul>
+                {foreach from=$footer item=value}
+                <li>
+                    <h4>{$value.cate_name}</h4>
+                    {foreach from=$value.son item=v}
+                    <p><a href="/page/{$v.id}.html">{$v.title}</a></p>
+                    {/foreach}
+                </li>
+                {/foreach}
+            </ul>
+
+        </div>
+        <div class="right frt">
+            <ul class="ewm color3">
+                <li>
+                    <p><img src="__IMG__/home/ewmWx.jpg" width="84" height="84"/></p>
+                    <span>官方微信</span>
+                </li>
+                <li>
+                    <p><img src="__IMG__/home/ewmApp.jpg" width="81" height="81"/></p>
+                    <span>APP</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <p style="text-align:center;" class="copyright color3">{$sys.icp_number}</p>
+</div>
+<!--footer end-->
+<div class="renzheng">
+   <ul>
+       {foreach from=$Partner item=value key=key}
+       <li>
+           <a href="{$value.url}" target="_blank">
+               <img border="0" src="__UPLOAD__/{$value.img}"/>
+           </a>
+       </li>
+       {/foreach}
+   </ul>
+
+    <!--<ul>
+        <li>
+            <img src="__IMG__/home/cert1.jpg"/>
+        </li>
+        <li>
+            <a href="http://www.shjbzx.cn/" target="_blank">
+                <img src="__IMG__/home/cert2.jpg"/>
+            </a>
+        </li>
+        <li>
+            <a id='___szfw_logo___' href='https://credit.szfw.org/CX20160519015265020195.html' target='_blank'>
+                <img src="__IMG__/home/cert.png" border='0' />
+            </a>
+        </li>
+        <li class="last">
+            <a href="http://webscan.360.cn/index/checkwebsite/url/www.myplas.com" target="_blank">
+                <img border="0" src="http://img.webscan.360.cn/status/pai/hash/11d280d842ae0cda461140c3b62a13a6"/>
+            </a>
+        </li>
+    <!--</ul>-->
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4808bff4f0276952e006e0f3ec054483";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>

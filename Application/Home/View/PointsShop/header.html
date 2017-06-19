@@ -1,0 +1,39 @@
+<!--top begin-->
+<div class="top">
+	<div class="w1200">
+    	<!--left begin-->
+        <ul class="left flt">
+        	<li class="back">返回 <a href="http://www.myplas.com/" target="_blank">我的塑料网首页</a></li>
+        	<li>您好，欢迎光临我的塑料网！</li>
+            <li><a href="javascript:Addme();">收藏本站</a>｜</li>
+            <li><a target="_blank" href="{$sys.weibo.link}">官方微博</a></li>
+        </ul>
+        <!--left end-->
+        <!--right begin-->
+        <ul class="right frt">
+        {if $smarty.session.userid > 0 }
+            <a href="http://www.myplas.com/user" class="mycount">{$smarty.session.uinfo.name}个人中心</a>
+            <a href="http://www.myplas.com/user/logout" class="loginout">退出登录</a>
+        {else}
+        	<li class="login"><a href="/user/login">登录</a></li>
+            <li class="register"><a href="/user/register">注册</a></li>
+        {/if}
+            <li class="last" style=" width:240px;">
+            	<a href="http://www.myplas.com/page">常见问题</a> -
+                <a href="http://www.myplas.com/page?id=16">联系我们</a> -
+                <a href="http://www.myplas.com/page?id=17">意见反馈</a> 
+                <!-- <a href="/english">ENGLISH</a> -->
+            </li>
+        </ul>
+        <!--right end-->
+    </div>
+</div>
+<!--top end-->
+<!--header begin-->
+<div class="header">
+	<div class="w1200">
+    	<div class="logo flt"><a href="/pointshop"><img src="__IMG__/home/pointshop/logo.png" width="181" height="53"/></a></div>
+        <div class="tel frt"><img src="__IMG__/home/pointshop/tel.jpg" width="188" height="47"/></div>
+    </div>
+</div>
+<!--header end-->

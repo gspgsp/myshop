@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$data.name}-积分商城-我的塑料网</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/common.css"/>
+<link rel="stylesheet" type="text/css" href="__CSS__/pointshop.css"/>
+</head>
+<body>
+<style type="text/css">
+#con-tab-2 p{
+    text-align: left !important;
+    margin: 0px !important;
+}
+</style>
+<include file="header"/>
+<!-- {include file="pointshop:header"} -->
+
+<!--header end-->
+<div class="crumb w1200">
+	<h2><a style="color:#666;" href="/pointshop">积分商城</a><span>&#8250;</span>{$data.name}</h2>
+</div>
+<!--summary begin-->
+<div class="summary w1200">
+	<div class="left flt"><img src="__UPLOAD__/{$data.thumb}" width="300" height="300"/></div>
+    <!--right begin-->
+    <div class="right flt">
+    	<h3>{$data.name}</h3>
+        <ul>
+        	<li class="num">
+            	<!-- <div class="info-name">商品编号</div> -->
+                <!-- <div class="info-val">1110000762</div> -->
+            </li>
+            <li class="my-jf">
+            	<div class="info-name">我的积分</div>
+                <div class="info-val">
+                    {if $smarty.session.userid > 0 }
+                    <div class="already">{$uinfo.points}</div>
+                    {else}
+                	<div class="no-login">未登录<a href="/user/login">登录</a>后显示</div>
+                    {/if}
+                </div>
+            </li>
+            <li class="need-jf">
+            	<div class="info-name">所需积分</div>
+                <div class="info-val">{$data.points}</div>
+            </li>
+            <li>
+            	<div class="info-name">已兑换</div>
+                <div class="info-val">{$data.receive_num}件</div>
+            </li>
+            <if condition=" $_SESSION['webUserId'] neq '' ">
+            <li class="convert"><a class="orderin" gid="{$data.id}" href="javascript:;">立即兑换</a></li>
+            </if>
+        </ul>
+    </div>
+    <!--right end-->
+</div>
+<!--summary end-->
+<!--detail begin-->
+<div class="detail">
+	<ul class="title">
+    	<li id="tab1" onclick="setTab('tab',1,2)" class="hover">商品详情</li>
+        <li id="tab2" onclick="setTab('tab',2,2)">退换货规定</li>
+    </ul>
+    <div id="con-tab-1">
+        <if condition="$data.image neq ''">
+    	<img src="__UPLOAD__/{$data.image}"/>
+        </if>
+    </div>
+    <div id="con-tab-2" style="display:none;padding: 15px;line-height: 18px;">
+        <p>兑换商品若出现以下情况，我的塑料网允许退换货：</p>
+        <p>1）商品本身有质量问题，影响使用</p>
+        <p>2）兑换的商品在运输过程中出现损毁</p>
+        <p>用户可在签收后7日内拨打我的塑料网客服热线400-6129-965，申请退换货，退回时，请务必将原包装、内附赠品及说明书和相关文件一并寄回。</p>
+        <br/>
+        <p>若出现以下情况，我的塑料网有权不予进行商品退换货：</p>
+        <p>1)非我的塑料网积分商城的兑换商品</p>
+        <p>2)不正常使用商品造成的质量问题</p>
+        <p>3)超过我的塑料网积分商城承诺的7天退换货有效时间</p>
+        <p>4)将商品存储、暴露在不适宜环境中造成的损坏</p>
+        <p>5)因未经授权的修理、改动、不正确的安装造成损坏</p>
+        <p>6)不可抗力导致礼品损坏</p>
+        <p>7)商品的正常磨损</p>
+        <p>8)在退换货之前未与我的塑料网客服取得联系，进行过退换货登记</p>
+        <p>9)退回商品包装或其他附属物不完整或有毁损</p>
+        <br/>
+        <p>注：商品图片及文字仅供参考，具体以实物为准。</p>
+    </div>
+</div>
+<!--detail end-->
+
+<!-- {include file="pointshop:layer"}
+{include file="pointshop:js"}
+{include file="public:footer"} -->
+<include file="layer"/>
+<include file="js"/>
+<include file="Public:footer"/>
+
+</body>
+<script>
+function setTab(name,cursel,n){
+	for(i=1;i<=n;i++){
+		var menu=document.getElementById(name+i);
+		var con=document.getElementById("con-"+name+"-"+i);
+		menu.className=i==cursel?"hover":"";
+		con.style.display=i==cursel?"block":"none";
+	}
+}
+</script>
+</html>

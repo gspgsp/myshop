@@ -1,0 +1,228 @@
+<script type="text/javascript" src="__JS__/focus.js"></script>
+<script type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__JS__/layer-v1.8.5/layer.min.js"></script>
+<script type="text/javascript" src="__JS__/common.js"></script>
+<script type="text/javascript">
+$(function(){
+   
+	//签到
+	var check = $(".title .on"),
+        already = $(".title .already"),
+        str = "<span></span>",
+        myCount,
+        msg = $(".msg span");
+
+	already.append(str);
+
+	$(".sign-on.on").bind("click",function(){
+        var _this = $(this);
+        $.post('/pointshop/index/signon', function (data){
+            if(data.status == 1){
+                layer.alert('签到成功, 本次签到获得'+ data.points +'积分。', -1)
+                $("#points").html((parseInt($("#points").html()) + data.points));
+                _this.removeClass("on").addClass("off");
+                check.append(str);
+            }else{
+                layer.alert(data.msg, -1)
+            }
+        }, 'json');
+
+	});
+
+	//
+	$(".choice-result li.only").bind("click勾选只看我可以选的",function(){
+		$(this).find("b").toggleClass("select");
+	});
+
+
+    //登录弹窗
+    $(".orderin").bind("click",function(){
+        var gid = $(this).data('gid');
+        $.post('/Home/PointsShop/checklogin',function(res){
+            if(res.err == 1){
+                layer.msg(res.msg,1,3,function(){
+                    $.layer({
+                          type: 2,
+                          border: [0],
+                          title: false,
+                          fix:true,
+                          // iframe: {src : "/user/login/loginbox?type="+type},
+                          iframe: {src : "/Home/Offers/index"},//登录模块
+                          area: ['360px', '340px']
+                    });
+                });
+            }else{
+                $.layer({
+                    area: ['418px', '308px'],
+                    border:[0],
+                    type: 1,
+                    title:false,
+                    page: {dom:'.layer-form'},
+                    close:function(){
+                        //弹窗关闭，则获取验证码倒数失效,获取验证码按钮恢复
+                        clearCount();
+                        msg.html("");
+                    },
+                    success:function(){
+                        $('#gid').val(gid);//hidden表单的
+                        $(".layer-form .close").bind("click",function(){
+                            layer.closeAll();
+                            clearCount();
+                            msg.html("");
+                        });
+                    },
+                    end:function(){
+                        document.getElementById('orderForm').reset();
+                    }
+                });
+            }
+        },'json');
+
+    });
+
+	//弹窗中的表单
+    var input = $(".layer-form .layer-input"),
+        btnSubmit = $(".layer-form form"),
+        receiver = $(".receiver"),
+        mobile = $(".mobile"),
+        address = $(".address"),
+        code = $(".code .layer-input"),
+        errorStr = "";
+    var preg = /^1[0-9]{10}$/;
+
+    input.bind("focus",function(){
+        $(this).addClass("border-orge").removeClass("border-gray");
+    });
+    input.bind("blur",function(){
+        $(this).addClass("border-gray").removeClass("border-orge");
+    });
+
+
+
+    btnSubmit.on("submit",function(){
+        //验证收货人
+        if(valid(receiver)){
+            msg.html("");
+        }
+        else{
+            receiver.focus();
+            msg.html("请您输入收货人");
+            return false;
+        }
+
+        //验证联系电话
+
+        if( valid(mobile) && preg.test(mobile.val()) ){
+            msg.html("");
+        }
+        else{
+            mobile.focus();
+            msg.html("请您输入联系电话");
+            return false;
+        }
+
+        //验证收货地址
+        if(valid(address)){
+            msg.html("");
+        }
+        else{
+            address.focus();
+            msg.html("请您输入收货地址");
+            return false;
+        }
+        //验证验证码
+        if(valid(code)){
+            msg.html("");
+        }
+        else{
+            code.focus();
+            msg.html("请您输入验证码");
+            return false;
+        }
+
+        $.ajax({
+             type : "POST",
+             url : '/Home/PointsShop/addMyOrder',
+             data: btnSubmit.serialize(),
+             dataType: 'json',
+             success: function(data) {
+                if(data.err == 0){
+                    // laye.msg(data.msg,1,1);
+                    layer.closeAll();
+                    var successLayer = 
+                    $.layer({
+                        area: ['418px', '308px'],
+                        type: 1,
+                        title:false,
+                        page: {dom:'.layer-success'},
+                        success:function(){
+                            $(".layer-success .close").bind("click",function(){
+                                layer.close(successLayer);
+                                window.location.reload();
+                            });
+                        }
+                    });
+                }else{
+                    layer.msg(data.msg,1,3);
+                }
+             }
+         });
+
+        return false;
+
+    });
+
+    //获取验证码
+    $(".get-code").bind("click",function(){
+        var phone = mobile.val();
+        //已经输入了联系电话
+        if(valid(mobile) && preg.test(mobile.val()) ){
+            //需要修改发送短信接口
+           // /api/sms/init type:4
+            //'/pointshop/index/sendmsg'  本地短信
+            $.post('/Home/PointsShop/sendmsg', {phone:phone }, function (data){
+                if(data.err == 0){
+                    layer.msg(data.msg,1,1);
+                    return;
+                }else{
+                    layer.msg(data.msg,1,3);
+                    return;
+                }
+            },'json')
+            msg.html("");
+            time($(this),180);
+        }
+        //没有输入联系电话
+        else{
+            mobile.focus();
+            msg.html("请您输入联系电话");
+            return false;
+        }
+    });
+
+    function valid(elem){
+        var result = "";
+        result = (elem.val()=="")?false:true;
+        return result;
+    }
+
+    function time(btn,wait) {
+          if (wait == 0) {
+              btn.removeClass("disabled").addClass("enabled").removeAttr("disabled").val("获取验证码");
+              wait = 180;
+          } else {
+              btn.removeClass("enabled").addClass("disabled").attr("disabled","true").val(wait + "秒后再次获取");
+              wait--;
+              myCount = setTimeout(function () {
+                  time(btn,wait);
+              },
+              1000);
+           }
+    }
+      
+    function clearCount(){
+        clearTimeout(myCount);
+        $(".get-code").removeClass("disabled").addClass("enabled").removeAttr("disabled").val("获取验证码")
+    }
+});
+</script>

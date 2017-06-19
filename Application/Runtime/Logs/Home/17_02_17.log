@@ -1,0 +1,838 @@
+[ 2017-02-17T10:26:58+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.025001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+
+[ 2017-02-17T10:26:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T10:27:26+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.1410s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.3290s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+
+[ 2017-02-17T10:27:49+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-02-17T10:27:49+08:00 ] 127.0.0.1 /Talk/1.php?PHPSESSID=a54rr3ucis1rvp9db4e4r25an1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+ERR: 非法操作:1.php
+
+[ 2017-02-17T10:29:10+08:00 ] 127.0.0.1 /Talk/1.php?PHPSESSID=a54rr3ucis1rvp9db4e4r25an1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+ERR: 非法操作:1.php
+
+[ 2017-02-17T10:29:12+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T10:29:17+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T10:34:21+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T10:34:27+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T10:35:28+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T10:35:32+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T10:36:04+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T10:46:10+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.024001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026002s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-02-17T10:46:14+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T10:47:10+08:00 ] 127.0.0.1 /Talk/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+SQL: SELECT con.user_id AS my_uid,con.name AS name,con.mobile AS mobile,cus.c_name AS c_name,ad.name AS adname,ad.mobile AS admobile,myCin.points AS points FROM p2p_customer_contact con LEFT JOIN p2p_customer cus ON con.c_id = cus.c_id LEFT JOIN p2p_admin ad ON cus.customer_manager = ad.admin_id  JOIN p2p_contact_info myCin ON con.user_id = myCin.user_id WHERE ( con.user_id = 9270 )  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-17T10:47:13+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T11:33:16+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.025002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026002s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-02-17T11:34:12+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T11:40:45+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.172010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.174010s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T11:41:07+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-02-17T11:43:55+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-17T11:47:39+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-02-17T12:06:03+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.023001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.097006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.097006s ]
+
+[ 2017-02-17T13:44:12+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.120007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.2580s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0210s ]
+
+[ 2017-02-17T13:45:03+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.078005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.078005s ]
+
+[ 2017-02-17T13:45:06+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T13:49:42+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T13:50:07+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T13:50:09+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T13:50:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T13:50:27+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:02:06+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.021002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022002s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:03:00+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:02+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:02+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:02+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:03:02+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:03:18+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:03:29+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:30+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:38+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:38+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+
+[ 2017-02-17T14:03:39+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:04:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T14:04:51+08:00 ] 127.0.0.1 /Talk/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T14:32:21+08:00 ] 127.0.0.1 /Talk/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.025001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+
+[ 2017-02-17T15:38:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T17:04:14+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.027001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028001s ]
+NOTIC: [2] Variable passed to each() is not an array or object D:\xampp\htdocs\myShop\Application\Common\Common\Corefunction.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-02-17T17:05:13+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T17:19:36+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.054004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.055004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-02-17T17:20:49+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T17:58:50+08:00 ] 127.0.0.1 /Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0010s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+
+[ 2017-02-17T18:01:55+08:00 ] 127.0.0.1 /Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+
+[ 2017-02-17T18:03:39+08:00 ] 127.0.0.1 /Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044002s ]
+
+[ 2017-02-17T18:03:57+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T18:04:00+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-17T18:04:08+08:00 ] 127.0.0.1 /Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T18:04:48+08:00 ] 127.0.0.1 /Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T18:04:56+08:00 ] 127.0.0.1 /Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0020s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: trade_no D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordsubject D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordtotal_fee D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordbody D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 40 行.
+NOTIC: [8] Undefined index: ordshow_url D:\xampp\htdocs\myShop\Application\Home\Controller\PayController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

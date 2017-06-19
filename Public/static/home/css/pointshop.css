@@ -1,0 +1,223 @@
+html,body,div,h1,h2,h3,h4,h5,h6,hr,ul,ol,li,dl,dt,dd,a,b,em,i,p,strong,img,table,tr,td,form,input{ margin:0; padding:0; border:0;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4{ font-weight:normal;}
+input{ outline:medium;}
+body{ font-family:"微软雅黑"; font-size:12px; color:#666;}
+
+a{ text-decoration:none;}
+.flt{ float:left;}    
+.frt{ float:right;} 
+.w1200{ width:1200px; height:auto; overflow:hidden; margin:0 auto;}
+
+/*top begin*/
+.top{ width:100%; height:34px; line-height:34px; overflow:hidden; border-bottom:1px solid #e2e2e2;}
+.top .left{}
+.top .left li{ float:left;}
+.top .left li a{ margin:0 5px 0 5px; color:#4c4c4c;}
+.top .left li a:hover{ color:#ff7200;}
+.top .left li.back a{ color:#ff7200;}
+.top .left li.back a:hover{ text-decoration:underline;}
+.top .right{ border-left:1px solid #e2e2e2;}
+.top .right li{ width:55px; float:left; border-right:1px solid #e2e2e2; text-align:center;}
+.top .right li.last{ float:right; width:240px; border-right:none;}
+.top .right li.last a{ color:#4c4c4c;}
+.top .right li.last a:hover{ color:#ee4822;}
+.top .right .login a{ color:#ff7200;}
+.top .right .register a{ color:#067a39;}
+/*top end*/
+.mycount{color:#ff7200;display:inline-block;height:40px;padding-left:8px;padding-right:5px;font-size: 13px;}
+.loginout{color:#339933;height:40px;display:inline-block;border-left:1px solid #e2e2e2;padding-left:8px;border-right:1px solid #e2e2e2;padding-right:8px;}
+/*header begin*/
+.header{ width:100%; height:110px; overflow:hidden; background:#f5f5f5; margin:0 0 10px 0;}
+.header .logo{ width:181px; height:53px; overflow:hidden; margin:28px 0 0 3px;}
+.header .tel{ width:188px; height:47px; margin:32px 0 0 0;}
+/*header end*/
+
+/*jifen begin*/
+.jifen{ height:272px; overflow:hidden; margin-bottom:10px;}
+.jifen .left{ width:238px; height:270px; overflow:hidden; border:1px solid #e1e1e1; margin:0 10px 0 0; position:relative;}
+.jifen .left .title{ height:38px; line-height:38px; border-bottom:1px solid #e1e1e1;}
+.jifen .left .title span{ float:left; margin:0 0 0 9px;}
+.jifen .left .title a{ float:right; color:#ff7200; margin:0 7px 0 0;} 
+.jifen .left .title a:hover{ text-decoration:underline;}
+.jifen .left  h3{ color:#ff7200; font-size:14px; margin:6px 0 0 11px;}
+.jifen .left  p{ font-size:60px; color:#333; font-family:Arial; margin:22px 0 0 0px; text-align: center;}
+.jifen .left .record{ height:18px; overflow:hidden; background:url(../../images/home/pointshop/iconSpirits.png) 0 0 no-repeat; padding:0 0 0 22px; margin:12px 0 0 23px;}
+.jifen .left .record a{ color:#666;}
+.jifen .left .no-login{ margin:27px 0 0 12px;}
+.jifen .left .no-login a{ color:#0466fc; margin:0 15px 0 0;}
+.jifen .left .no-login a:hover{ text-decoration:underline;}
+.jifen .left .ad{ width:135px; height:25px; overflow:hidden; position:absolute; bottom:22px; right:22px;}
+.jifen .banner{ width:698px; height:270px; overflow:hidden; border:1px solid #e1e1e1;}
+.jifen .right{ width:238px; height:270px; overflow:hidden; border:1px solid #e1e1e1;}
+.jifen .right .title{ line-height: 5px; height:70px; background:#fafafa; border-bottom:1px solid #e1e1e1; position:relative; margin:0 0 17px 0;}
+.jifen .right .title h3{ font-size:14px; text-align:center; margin:12px 0 0 0;}
+.jifen .right .title ul{ width:220px; height:42px; border-right:1px solid #e1e1e1; position:absolute; left:8px; bottom:1px;}
+.jifen .right .title li{ float:left; width:43px; height:42px; line-height:30px; text-align:center; overflow:hidden; border-left:1px solid #e1e1e1;border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; cursor:pointer; position:relative;}
+.jifen .right .title li.on{ border-bottom:1px solid #fff; color:#ff7200;}
+.jifen .right .title li.on span,.jifen .right .title li.already span{ position:absolute; width:14px; height:11px; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat 0 -859px; left:16px; bottom:4px;}
+.jifen .right .sign-on{ width:114px; height:114px; overflow:hidden; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat; cursor:pointer; margin:0 0 17px 62px;}
+.jifen .right .sign-on.on{ background-position:0 -18px;}
+.jifen .right .sign-on.off{ background-position:0 -132px;}
+.jifen .right .sign-on.no-login{ background-position:0 -873px;}
+.jifen .right h4{ width:238px; height:38px; line-height:38px; text-align:center; background:#fafafa; border-top:1px solid #e1e1e1;}
+/*jifen end*/
+
+/*propagate begin*/
+.propagate{ width:1198px; height:108px; overflow:hidden; border:1px solid #e1e1e1; margin:0 auto; margin-bottom:10px;}
+.propagate dl{ width:240px; overflow:hidden; float:left; margin:20px 30px 0 25px;}
+.propagate dl img{ float:left; margin:0 15px 0 0;}
+.propagate dl dt{ font-size:20px; color:#333; margin:0 0 4px 0;}
+.propagate dl dd{ line-height:22px; font-size:14px;}
+/*propagate end*/
+
+/*classify begin*/
+.classify{ height:86px; overflow:hidden;}
+.classify .left{ width:158px; height:86px; background:#c35a05; font-size:14px; color:#fff; text-align:center;}
+.classify .left h3{ margin:20px 0 4px 0;}
+.classify .right{ width:1042px; height:86px; background:#fe790d;}
+.classify .right ul{ margin:14px 0 0 47px;}
+.classify .right ul li{ font-size:14px; color:#d6d5d4; width:41px; height:58px; overflow:hidden; float:left; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat; margin:0 43px 0 0; cursor:pointer; position:relative;}
+.classify .right ul li.clafy-1{ background-position:0 -246px;}
+.classify .right ul li.clafy-1:hover{ background-position:-41px -246px;}
+.classify .right ul li.clafy-2{ background-position:0 -304px;}
+.classify .right ul li.clafy-2:hover{ background-position:-41px -304px;}
+.classify .right ul li.clafy-3{ background-position:0 -362px;}
+.classify .right ul li.clafy-3:hover{ background-position:-41px -362px;}
+.classify .right ul li.clafy-4{ background-position:0 -420px;}
+.classify .right ul li.clafy-4:hover{ background-position:-41px -420px;}
+.classify .right ul li.clafy-5{ background-position:0 -477px;}
+.classify .right ul li.clafy-5:hover{ background-position:-41px -477px;}
+.classify .right ul li.clafy-6{ background-position:0 -536px;}
+.classify .right ul li.clafy-6:hover{ background-position:-41px -536px;}
+.classify .right ul li.clafy-7{ background-position:0 -594px;}
+.classify .right ul li.clafy-7:hover{ background-position:-41px -594px;}
+.classify .right ul li.clafy-8{ background-position:0 -652px;}
+.classify .right ul li.clafy-8:hover{ background-position:-41px -652px;}
+.classify .right ul li.clafy-9{ background-position:0 -710px;}
+.classify .right ul li.clafy-9:hover{ background-position:-41px -710px;}
+.classify .right ul li.clafy-10{ background-position:0 -768px;}
+.classify .right ul li.clafy-10:hover{ background-position:-41px -768px;}
+.classify .right ul li span{ width:41px; position:absolute; bottom:0; left:6px;}
+.classify .right ul li:hover span a{ color:#fff;}
+.classify .right ul li a{color: #d6d5d4;}
+/*classify end*/
+
+/*choice-result begin*/
+.choice-result{ width:1198px; height:43px; line-height:43px; overflow:hidden; border:1px solid #e1e1e1; border-top:none; margin:0 auto; margin-bottom:10px;}
+.choice-result .left li{ float:left;}
+.choice-result .left li a{ color:#666; padding:0 15px;}
+.choice-result .left li a:hover,.choice-result .left li.hover a{ color:#ff7200;}
+.choice-result .left li.only{ cursor:pointer;}
+.choice-result .left li.only b{ width:14px; height:14px; overflow:hidden; display:inline-block; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat -14px -859px; float:left; margin:14px 6px 0 11px;}
+.choice-result .left li.only b.select{ background-position:-28px -859px;}
+.choice-result .right li{ float:left; margin:0 10px 0 0;}
+.choice-result .right li span{ color:#ff7200;}
+.choice-result .right li.btn{ font-size:26px;}
+.choice-result .right li.btn a{ color:#666;}
+/*choice-result end*/
+
+/*result begin*/
+.result{ height:auto; overflow:hidden; border-top:1px solid #e1e1e1; border-right:1px solid #e1e1e1; margin-bottom:10px;}
+.result li{ width:239px; height:351px; overflow:hidden; border-left:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; float:left;}
+.result li img{ margin:23px 0 24px 22px;}
+.result li h4{ height: 48px; text-align:center; margin:0 0 15px 0;}
+.result li .opt{ width:200px; height:33px; margin:0 0 0 25px; overflow:hidden;}
+.result li .opt p{ float:left; line-height:33px;}
+.result li .opt p span{ color:#fe7301; font-size:24px; margin:0 8px 0 0;}
+.result li .opt .btn{ width:92px; height:33px; line-height:33px; text-align:center; float:right; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat 0 -826px;}
+.result li .opt .btn a{ color:#fff; display:block;}
+.result li:hover{ background:#e1e1e1;}
+.result li:hover h4{ color:#ff7200;}
+.result li .opt .btn.disabled{background: #e1e1e1;border-radius: 5px;color:#fff;}
+/*result end*/
+
+/*page begin*/
+/*.page{ height:26px; line-height:26px; margin-bottom:85px;}
+.page ul{ float:right;}
+.page li{ float:left; width:24px; height:24px; text-align:center; border:1px solid #0e050a; margin:0 10px 0 0;}
+.page li a{ color:#010101; display:block;}
+.page li.on{ background:#a9aaab;}*/
+/* 分页 */
+.page {width:1200px; margin:20px auto; padding:6px 0 0 3px; text-align:center; font-family:Arial; font-size:14px;}
+.page a { background-color:#fff; border:1px solid #D0D0D0; color:#bbbbbb; text-decoration:none;   padding:5px 11px;-moz-border-radius: 3px; -webkit-border-radius:3px; border-radius:3;}
+.page span.current {  background-color:#eb5934; border:1px solid #eb5934; color:#FFFFFF; font-weight:700; margin-right:2px;  padding:5px 11px;-moz-border-radius: 3px; -webkit-border-radius:3px; border-radius:3; }
+.page span.disabled {  background-color:#eb5934; border:1px solid #eb5934; color:#fff; margin-right:2px; padding:5px 11px; -moz-border-radius: 3px; -webkit-border-radius:3px; border-radius:3;}
+.page a:hover, .pagination a:active { background-color:#eb5934; border:1px solid #eb5934; color:#FFFFFF;  padding:5px 11px;-moz-border-radius: 3px; -webkit-border-radius:3px; border-radius:3;}
+.page a:hover { background-color:#eb5934; border:1px solid #eb5934;  padding:5px 11px;-moz-border-radius: 3px; -webkit-border-radius:3px; border-radius:3;}
+/*page end*/
+
+.fotbg{ overflow: hidden; width: 100%; background-color:#f7f7f7; border-top:#e3e3e3 1px solid; margin-top:0;}
+.fotbg ul{ overflow: hidden; width:1200px; display:block; margin:0 auto; line-height:24px; padding-top:18px;} 
+.fotbg li{ padding-left:22px; width:217px; float:left; border-right:#e3e3e3 1px solid; padding-bottom:10px;}
+.fotbg a:hover{ color:#ee4822; text-decoration:underline;}
+.fotnavti{ font-size:16px; line-height:32px;}
+.banquanxx{text-align: center;}
+/*banner begin*/
+.wrapper {width:698px; margin:0 auto;}
+#focus {width:698px; height:270px; overflow:hidden; position:relative;}
+#focus ul {height:270px; position:absolute;}
+#focus ul li {float:left; width:698px; height:270px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btn {position:absolute; width:180px; height:24px; right:0; bottom:9px; padding-left:10px;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:24px; height:24px; line-height:24px; border:1px solid #010101; text-align:center; font-size:12px; font-family:Arial; margin-right:10px; cursor:pointer; background:#fff; color:#010101;}
+#focus .btn span.on {background:#a9aaab; color:#010101;}
+/*banner end*/
+
+/*layer begin*/
+.layer{ width:418px; height:308px; display:none;}
+.layer .btn{ font-family:"宋体"; color:#323131; font-size:14px; width:94px; height:37px; line-height:35px; text-align:center; overflow:hidden; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat 0 -1024px; margin:10px auto; cursor:pointer;}
+.layer .btn:hover{ background-position:0 -987px; color:#fff;}
+.layer .btn a{ color:#fff; display:block; font-size:14px;}
+.layer-no-login p{ text-align:center; font-size:18px; margin:124px 0 70px 0;}
+.layer-success{ text-align:center;}
+.layer-success h3{ font-size:18px; margin:80px 0 25px 0;}
+.layer-success p{ line-height:30px;padding-bottom: 20px;}
+.layer-form table{ margin:0 auto; margin-top:35px;}
+.layer-form table tr{ height:36px;}
+.layer-form .layer-input{ color:#383737; width:262px; height:14px; padding:5px 0 5px 10px;}
+.layer-form .layer-input.border-gray{ border:1px solid #e1e1e1;}
+.layer-form .layer-input.border-orge{ border:1px solid #ff7200;}
+.layer-form .code .layer-input{ width:100px;}
+.layer-form .code .get-code{ color:#fff; width:104px; height:29px; line-height:26px; overflow:hidden; background:url(../../images/home/pointshop/iconSpirits.png) no-repeat 0 -1061px; cursor:pointer;}
+.layer-form .msg span{ font-family:"宋体"; color:red;}
+.layer-form .code .get-code.disabled{ color:#333332; background-position: 0 -1090px;}
+.layer-form .code .get-code.enabled{ color:#fff; background-position: 0 -1061px; cursor:pointer;}
+
+/*layer end*/
+
+
+/*crumb begin*/
+.crumb{ height:22px; line-height:22px; overflow:hidden; margin-top:10px; margin-bottom:10px;}
+.crumb h2{ height:22px; background:url(../../images/home/pointshop/iconCrumb.jpg) left center no-repeat; font-size:12px; padding:0 0 0 31px;}
+.crumb h2 span{ font-size:20px; margin:0 5px;}
+/*crumb end*/
+
+/*summary begin*/
+.summary{ margin-bottom:20px;}
+.summary .left{ width:300px; height:300px; overflow:hidden; margin:0 60px 0 0;}
+.summary li{ height:40px; line-height:40px;}
+.summary .right h3{ color:#282727; font-size:20px; font-weight:bold; margin:20px 0 10px 0;}
+.summary .right ul{ color:#777;}
+.summary .right li div{ float:left;}
+.summary .right li div.info-name{ color:#adacac; width:70px;}
+.summary .right li div.info-val{ color:#050505;}
+.summary .right li.my-jf div.info-val .no-login{ color:#adacac;}
+.summary .right li.my-jf div.info-val .no-login a{ color:#0260fb; font-weight:bold; margin:0 6px; font-size:14px;}
+.summary .right li.my-jf div.info-val .no-login a:hover{ text-decoration:underline;}
+.summary .right li.my-jf div.info-val .already{ font-size:24px;}
+.summary .right li.need-jf div.info-val{ color:#fd6b03; font-size:24px;}
+.summary .right li.convert{ width:192px; height:48px; line-height:48px; text-align:center; overflow:hidden; background:url(../../images/home/pointshop/BtnConvert.jpg) no-repeat; font-size:18px; margin:20px 0 0 0;}
+.summary .right li.convert a{ color:#fff; display:block;}
+/*summary end*/ 
+
+/*detail begin*/
+.detail{ width:1198px; height:auto; overflow:hidden; border:1px solid #e1e1e1; margin:0 auto; margin-bottom:80px;} 
+.detail .title{ font-size:14px; height:49px; line-height:49px; overflow:hidden; background:#f3f3f3; border-bottom:1px solid #e1e1e1;}
+.detail .title li{ width:129px; text-align:center; border-right:1px solid #e1e1e1; float:left; cursor:pointer;}
+.detail .title li.hover{ background:#fff;}
+#con-tab-1{ width:902px; height:auto; overflow:hidden; margin:0 auto; margin-top:94px; margin-bottom:159px;}
+/*detail end*/
+.fotbg a{ color:#444; }
+.banquanxx{ text-align:center; border-top:#e3e3e3 1px solid; line-height:48px; margin-top:30px;}
+.title{font-size: 12px;}

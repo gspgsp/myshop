@@ -1,0 +1,1556 @@
+[ 2017-03-01T09:16:47+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-03-01T09:16:47+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:16:59+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SELECT `name`,`mobile` FROM `p2p_customer_contact` LIMIT 0,10   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T09:19:07+08:00 ] 127.0.0.1 /home/offers/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: cart D:\xampp\htdocs\myShop\Application\Common\MyLib\Cart.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `p2p_factory` [ RunTime:0.0330s ]
+SQL: SELECT DISTINCT  * FROM `p2p_factory` WHERE ( 1 ) LIMIT 28   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_big_offers` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT pur.id,pur.supply_count,pur.bargain,pur.user_id,pur.shelve_type,pur.is_union,pur.unit_price,pur.c_id,pur.number,pur.status,pur.cargo_type,pur.period,pur.input_time,pur.type,pro.model,pro.f_id,pro.product_type,pro.process_type,fac.f_name,pur.store_house FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) ORDER BY pur.input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=37089 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 37089 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: seotype D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seofa D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seoprocess D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 4 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 8 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 15 行.
+NOTIC: [8] Undefined index: description D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 16 行.
+NOTIC: [8] Undefined variable: auth_info D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 52 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 55 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 130 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 140 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: key_model D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 152 行.
+NOTIC: [8] Undefined variable: key_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 153 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 154 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 155 行.
+NOTIC: [8] Undefined variable: key D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 166 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 167 行.
+NOTIC: [8] Undefined variable: ct D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 168 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 169 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 289 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 323 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T09:19:08+08:00 ] 127.0.0.1 /Public/Uploads/16/06/21/5768d3c0629bf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:19:08+08:00 ] 127.0.0.1 /Public/Uploads/16/07/27/57985d52d7a9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:19:08+08:00 ] 127.0.0.1 /Public/Uploads/16/07/22/5791cf36a122e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:21:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:42:10+08:00 ] 127.0.0.1 /home/offers/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `p2p_factory` [ RunTime:0.0310s ]
+SQL: SELECT DISTINCT  * FROM `p2p_factory` WHERE ( 1 ) LIMIT 28   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_big_offers` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT pur.id,pur.supply_count,pur.bargain,pur.user_id,pur.shelve_type,pur.is_union,pur.unit_price,pur.c_id,pur.number,pur.status,pur.cargo_type,pur.period,pur.input_time,pur.type,pro.model,pro.f_id,pro.product_type,pro.process_type,fac.f_name,pur.store_house FROM p2p_purchase pur left JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fac on fac.fid = pro.f_id  WHERE ( pur.type = 2 and pur.shelve_type =1 and pur.status in (2,3,4) ) ORDER BY pur.input_time desc LIMIT 0,10   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=37089 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 37089 ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `customer_manager` FROM `p2p_customer_contact` WHERE ( user_id=3858 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 3858 ) LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: seotype D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seofa D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+NOTIC: [8] Undefined variable: seoprocess D:\xampp\htdocs\myShop\Application\Home\Controller\OffersController.class.php 第 101 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 4 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 8 行.
+NOTIC: [8] Undefined index: keywords D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 15 行.
+NOTIC: [8] Undefined index: description D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 16 行.
+NOTIC: [8] Undefined variable: auth_info D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 52 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 55 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 123 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 130 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 131 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 140 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Use of undefined constant fid - assumed 'fid' D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 141 行.
+NOTIC: [8] Undefined variable: key_model D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 152 行.
+NOTIC: [8] Undefined variable: key_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 153 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 154 行.
+NOTIC: [8] Undefined variable: union D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 155 行.
+NOTIC: [8] Undefined variable: key D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 162 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 166 行.
+NOTIC: [8] Undefined variable: process D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 167 行.
+NOTIC: [8] Undefined variable: ct D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 168 行.
+NOTIC: [8] Undefined variable: fa D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 169 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 37 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\myShop\Application\Common\Common\function.php 第 47 行.
+NOTIC: [8] Undefined index: area D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 200 行.
+NOTIC: [8] Undefined index: cate_name D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 289 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 291 行.
+NOTIC: [8] Undefined index: url D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 323 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\myShop\Application\Runtime\Cache\Home\f4ac2ef82fac0227e16533300d993be2.php 第 324 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-03-01T09:42:10+08:00 ] 127.0.0.1 /Public/Uploads/16/07/22/5791cf36a122e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:42:10+08:00 ] 127.0.0.1 /Public/Uploads/16/06/21/5768d3c0629bf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:42:10+08:00 ] 127.0.0.1 /Public/Uploads/16/07/27/57985d52d7a9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T09:52:59+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `value` FROM `p2p_setting` WHERE ( code = 'points' ) LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T09:53:25+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0860s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0420s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-01T09:54:46+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 986 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] assert(): Assertion failed D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 169 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 994 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1042 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1050 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 1058 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 553 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [2] feof() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 557 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 558 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 467 行.
+NOTIC: [8] Undefined property: MyLib\SphinxClient::$_socket D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, null given D:\xampp\htdocs\myShop\Application\Common\MyLib\SphinxClient.class.php 第 468 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-01T11:30:15+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0480s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0380s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2017-03-01T11:31:54+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+ERR: 1146:Table 'my.p2p_resource_lib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_resource_lib`
+ERR: 1146:Table 'my.p2p_resource_lib' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p2p_resource_lib`
+
+[ 2017-03-01T11:32:31+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0410s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.5810s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0420s ]
+ERR: 模板不存在:./Application/Home/View/Resource/index.html.html
+
+[ 2017-03-01T11:32:46+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0640s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-01T12:09:11+08:00 ] 127.0.0.1 /Home/Resource/_getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0810s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+ERR: 非法操作:_getInfo
+
+[ 2017-03-01T12:09:59+08:00 ] 127.0.0.1 /Home/Resource/_getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+ERR: 非法操作:_getInfo
+
+[ 2017-03-01T12:10:00+08:00 ] 127.0.0.1 /Home/Resource/_getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+ERR: 非法操作:_getInfo
+
+[ 2017-03-01T12:10:01+08:00 ] 127.0.0.1 /Home/Resource/_getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0390s ]
+ERR: 非法操作:_getInfo
+
+[ 2017-03-01T12:10:05+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0360s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-01T12:10:23+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0350s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T12:11:04+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0300s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-01T12:11:49+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0340s ]
+SQL: SELECT `staff_name` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T14:12:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T16:01:17+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T16:35:51+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0340s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0330s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T16:36:36+08:00 ] 127.0.0.1 /Home/Resource/getInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0300s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0290s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T17:09:12+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0640s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0310s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T17:09:31+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0320s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T17:09:46+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0720s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0410s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T17:52:22+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.last_login,con.name as con_name,con.input_time,con.customer_manager as cu_manageer,cus.c_name,cus.identification,ad.mobile,ad.name as ad_name,ad.pic,cin.thumb,cin.thumbqq,cin.points,count(msg.id) as number FROM p2p_customer_contact con left JOIN p2p_admin ad on ad.admin_id = con.customer_manager left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_contact_info cin on cin.user_id = con.user_id left JOIN p2p_user_msg msg on msg.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0330s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0300s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+NOTIC: [2] Illegal string offset '$product_type' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset '$model' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset '$unit_price' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset '$store_house' D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T17:52:57+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0310s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: $product_type D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 64 行.
+NOTIC: [8] Undefined index: $model D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Undefined index: $unit_price D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Undefined index: $store_house D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T17:53:33+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0300s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [8] Undefined index: $product_type D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 64 行.
+NOTIC: [8] Undefined index: $model D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Undefined index: $unit_price D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Undefined index: $store_house D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T17:54:21+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0310s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [8] Undefined index: $product_type D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 64 行.
+NOTIC: [8] Undefined index: $model D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 65 行.
+NOTIC: [8] Undefined index: $unit_price D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 66 行.
+NOTIC: [8] Undefined index: $store_house D:\xampp\htdocs\myShop\Application\Home\Controller\ResourceController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-01T17:54:45+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0400s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-01T17:56:01+08:00 ] 127.0.0.1 /Home/Resource/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+NOTIC: [2048] Declaration of Home\Controller\HomeBaseController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\myShop\Application\Home\Controller\HomeBaseController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `p2p_resourcelib` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_setting` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_setting`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_customer_contact` [ RunTime:0.0310s ]
+SQL: SELECT con.user_id,con.name,con.mobile,cus.c_name,ad.name as adname,ad.mobile as admobile,info.points FROM p2p_customer_contact con left JOIN p2p_customer cus on cus.c_id = con.c_id left JOIN p2p_admin ad on ad.admin_id = cus.customer_manager INNER JOIN p2p_contact_info info on info.user_id = con.user_id  WHERE ( con.user_id = 9270 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `p2p_points_bill` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=1 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=9 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_points_bill` WHERE ( uid=9270 and type=10 and addtime>1488297600 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT count(*) as count FROM `p2p_resourcelib` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `p2p_resourcelib` WHERE (  type in (0,1)  ) ORDER BY input_time desc LIMIT 0,10   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_purchase` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `p2p_concerned_product` [ RunTime:0.0300s ]
+SQL: SELECT `product_id` FROM `p2p_concerned_product` WHERE ( user_id = 9270 ) ORDER BY input_time desc LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT pur.*,pro.model,pro.f_id as prof_id,pro.product_type,pro.process_type,pro.status as pro_status,pro.remark as pro_remark,fa.f_name FROM p2p_purchase pur INNER JOIN p2p_product pro on pro.id = pur.p_id left JOIN p2p_factory fa on fa.fid = pro.f_id  WHERE ( pur.id = 42 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p2p_lib_region` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `p2p_lib_region` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
