@@ -1,0 +1,560 @@
+[ 2017-05-31T20:30:04+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T20:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 6 行.
+NOTIC: [8] Undefined variable: smarty D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `php34_admin` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `php34_admin` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: _isUseCluster D:\xampp\htdocs\shop\Application\Common\MyLib\RedisCluster.class.php 第 143 行.
+
+[ 2017-05-31T20:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T20:30:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM php34_privilege [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_goods` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html?goods_name=%E8%AF%BA%E5%9F%BA%E4%BA%9A5250&cat_id=&brand_id=&shop_pricefrom=&shop_priceto=&is_hot=-1&is_new=-1&is_best=-1&is_on_sale=-1&type_id=&addtimefrom=&addtimeto=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT * FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' ORDER BY id desc LIMIT 0,3   [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:30:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `php34_type` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_type`  [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_brand` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_brand`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_member_level` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_member_level`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods_cat` [ RunTime:0.0280s ]
+SQL: SELECT `cat_id` FROM `php34_goods_cat` WHERE `goods_id` = '5'  [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `php34_member_price` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_member_price` WHERE `goods_id` = '5'  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_goods_attr` [ RunTime:0.0290s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM php34_goods_attr a left JOIN php34_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '5' ORDER BY a.attr_id asc  [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: otherAttr D:\xampp\htdocs\shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `php34_goods_pics` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_goods_pics` WHERE `goods_id` = '5'  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 2 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [2] Missing argument 3 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 449 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 450 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: promote_price D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_start_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_end_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: is_delete D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `logo`,`sm_logo` FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0310s ]
+SQL: UPDATE `php34_goods` SET `goods_name`='诺基亚5250',`cat_id`='1',`brand_id`='0',`market_price`='55.00',`shop_price`='66.00',`jifen`='2',`jyz`='5',`jifen_price`='45',`is_hot`='1',`is_new`='0',`is_best`='0',`is_on_sale`='1',`seo_keyword`='手机',`seo_description`='实用手机',`sort_num`='4',`goods_desc`='',`type_id`='0',`updatetime`='1496233872',`logo`=NULL,`sm_logo`=NULL WHERE `id` = 5 [ RunTime:0.0450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:31:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_goods` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:32:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html?goods_name=%E8%AF%BA%E5%9F%BA%E4%BA%9A5250&cat_id=&brand_id=&shop_pricefrom=&shop_priceto=&is_hot=-1&is_new=-1&is_best=-1&is_on_sale=-1&type_id=&addtimefrom=&addtimeto=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' ORDER BY id desc LIMIT 0,3   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T20:32:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_type` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_type`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `php34_brand` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_brand`  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_member_level` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_member_level`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_goods_cat` [ RunTime:0.0300s ]
+SQL: SELECT `cat_id` FROM `php34_goods_cat` WHERE `goods_id` = '5'  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_member_price` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_member_price` WHERE `goods_id` = '5'  [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `php34_goods_attr` [ RunTime:0.0300s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM php34_goods_attr a left JOIN php34_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '5' ORDER BY a.attr_id asc  [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: otherAttr D:\xampp\htdocs\shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `php34_goods_pics` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_goods_pics` WHERE `goods_id` = '5'  [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 2 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [2] Missing argument 3 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 449 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 450 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:33:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: promote_price D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_start_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_end_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: is_delete D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `logo`,`sm_logo` FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [2] unlink(./Public/Uploads/): Permission denied D:\xampp\htdocs\shop\Application\Admin\Model\GoodsModel.class.php 第 183 行.
+NOTIC: [2] unlink(./Public/Uploads/): Permission denied D:\xampp\htdocs\shop\Application\Admin\Model\GoodsModel.class.php 第 184 行.
+SQL: UPDATE `php34_goods` SET `goods_name`='诺基亚5250',`cat_id`='1',`brand_id`='0',`market_price`='55.00',`shop_price`='66.00',`jifen`='2',`jyz`='5',`jifen_price`='45',`is_hot`='1',`is_new`='0',`is_best`='0',`is_on_sale`='1',`seo_keyword`='手机',`seo_description`='实用手机',`sort_num`='4',`goods_desc`='',`type_id`='0',`updatetime`='1496233986',`logo`='Goods/2017-05-31/592eb802610ee.jpg',`sm_logo`='Goods/2017-05-31/thumb_1592eb802610ee.jpg' WHERE `id` = 5 [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:33:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `php34_goods` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-31T20:33:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html?goods_name=%E8%AF%BA%E5%9F%BA%E4%BA%9A5250&cat_id=&brand_id=&shop_pricefrom=&shop_priceto=&is_hot=-1&is_new=-1&is_best=-1&is_on_sale=-1&type_id=&addtimefrom=&addtimeto=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_goods` WHERE `goods_name` LIKE '%诺基亚5250%' ORDER BY id desc LIMIT 0,3   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:35:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_type` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_type`  [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_brand` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_brand`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_member_level` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_member_level`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `php34_goods_cat` [ RunTime:0.0300s ]
+SQL: SELECT `cat_id` FROM `php34_goods_cat` WHERE `goods_id` = '5'  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_member_price` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_member_price` WHERE `goods_id` = '5'  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods_attr` [ RunTime:0.0310s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM php34_goods_attr a left JOIN php34_attribute b ON a.attr_id=b.id  WHERE a.goods_id = '5' ORDER BY a.attr_id asc  [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: otherAttr D:\xampp\htdocs\shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `php34_goods_pics` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `php34_goods_pics` WHERE `goods_id` = '5'  [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 2 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [2] Missing argument 3 for showImage(), called in D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php on line 146 and defined D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 447 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 449 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 450 行.
+NOTIC: [8] Undefined variable: width D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined variable: height D:\xampp\htdocs\shop\Application\Common\Common\function.php 第 451 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T20:36:05+08:00 ] 127.0.0.1 /Admin/Goods/ajaxGetAttr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="ajaxGetAttr" [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `php34_attribute` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `php34_attribute` WHERE `type_id` = '1'  [ RunTime:0.0310s ]
+
+[ 2017-05-31T20:36:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/5/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="edit" [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: promote_price D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_start_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: promote_end_time D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: is_delete D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT `logo`,`sm_logo` FROM `php34_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0310s ]
+SQL: UPDATE `php34_goods` SET `goods_name`='诺基亚5250',`cat_id`='1',`brand_id`='0',`market_price`='55.00',`shop_price`='66.00',`jifen`='2',`jyz`='5',`jifen_price`='45',`is_hot`='1',`is_new`='0',`is_best`='0',`is_on_sale`='1',`seo_keyword`='手机',`seo_description`='实用手机',`sort_num`='4',`goods_desc`='',`type_id`='1',`updatetime`='1496234199',`logo`='Goods/2017-05-31/592eb8d7732ba.jpg',`sm_logo`='Goods/2017-05-31/thumb_1592eb8d7732ba.jpg' WHERE `id` = 5 [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-31T20:36:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) has FROM php34_privilege b WHERE b.module_name="Admin" AND b.controller_name="Goods" AND b.action_name="lst" [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `php34_goods` LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `php34_goods` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+NOTIC: [8] Undefined index: gn D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\12cf6a5c74297688873998de0720405d.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

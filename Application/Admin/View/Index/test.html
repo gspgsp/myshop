@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>socket-test</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://www.gsplbb.xyz/socket.io/socket.io.js"></script>
+	<script type="text/javascript">
+		// var socket = io.connect('ws://www.gsplbb.xyz:3000');
+		var socket = io('http://www.gsplbb.xyz:3000');
+		socket.on('conn', function (data) {
+			if(data.text){
+				var postdata = {
+					'c_id'   : 50375,     //用户id
+		  		}
+				socket.emit('login', postdata,function(){
+		     		console.log('登陆成功');
+		  		});
+			}
+		  // var postdata = {
+				// 'c_id'   : 9270,     //用户id
+		  //       'c_name' : 'gsp',   //用户昵称
+		  //       'guid'   : 123,//拍卖id
+		  //       'price'  : 3000.4,//当前最高价
+
+		  // }
+		  // socket.emit('login', postdata,function(result){
+		  //    console.log('登陆成功');
+		  // });
+		});
+		// socket.on('company',function(res){
+		//   			console.log(res.c_name);
+		//   		});
+		socket.on('company', function(msg){
+			var str = '<div class="show-msg">'+
+						'<div class="show-title"><p style="color:#ff4343; font-weight:bold;font-size:14px;">您有新消息请到工作台查看</p><div class="show-close">关闭</div></div>'+
+						'<div class="show-con">'+msg.c_name+'</div>'+
+					  '</div>';
+		     $("body").append(str);
+		     $(".show-msg").show();
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

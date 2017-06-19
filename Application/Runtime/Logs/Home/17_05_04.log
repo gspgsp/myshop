@@ -1,0 +1,293 @@
+[ 2017-05-04T09:14:52+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T19:10:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T19:10:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-25/thumb_158fecd88046b6.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fdddd72690f.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-05-04T20:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showImage(Goods/2017-04-24/thumb_58fddde550c1a.jpg)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
